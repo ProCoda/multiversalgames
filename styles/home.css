@@ -3,7 +3,7 @@ body {
 }
 
 
-.nav ul {
+.navbar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -18,8 +18,9 @@ body {
 
 .header {
   padding: 10px 16px;
+  background: #555;
   color: #f1f1f1;
-  background-image: url("images/galaxy.jpeg");
+  
 }
 
 
