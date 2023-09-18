@@ -1,67 +1,70 @@
 body {
-    background-image: url('./images/homePageBackground.jpg');
+  background-image: url('./images/homePageBackground.jpg');
 }
 
 
 .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
 
-  .nav ul li {
-    margin-right: 10px;
-  }
+.navbar ul li {
+  margin-right: 10px;
+  
+}
+
 .header {
-    padding: 10px 16px;
-    background: #555;
-    color: #f1f1f1;
-  }
-  
+  padding: 10px 16px;
+  color: #f1f1f1;
+  background-image: url("images/galaxy.jpeg");
+}
 
-  .content {
-    padding: 16px;
-  }
-  
 
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
- 
-  .sticky + .content {
-    padding-top: 102px;
-  }
+.content {
+  padding: 16px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+
+.sticky+.content {
+  padding-top: 102px;
+}
 
 
 /*text on hover*/
 #img {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 .title {
-    background-color: rgb(0, 0, 0, 0.5);
-    position: absolute;   
-    bottom: 0;           
-    color: white;
-    width: 100%;
-    font-size: 25px;
-    padding: 15px 0;
-    text-align: center;
-    /*invisible because opacity is 0*/
-    opacity: 0;           
-    transition: 0.6s;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  font-size: 25px;
+  padding: 15px 0;
+  text-align: center;
+  /*invisible because opacity is 0*/
+  opacity: 0;
+  transition: 0.6s;
 }
 
 .text:hover .title {
-/*becomes visible on hover*/
-    opacity: 1;       
+  /*becomes visible on hover*/
+  opacity: 1;
 }
 
-.logo{
+.logo {
   width: 25%;
 }
