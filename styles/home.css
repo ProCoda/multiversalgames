@@ -2,87 +2,72 @@
   text-decoration: none;
 }
 
-body{
-  background-color: #24252A;
-  text-decoration: none;
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
 }
 
-.banner{
+.content h1{
+  font-size: 50px;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.banner {
   width: 100%;
   padding: 0 0;
   height: 100vh;
+  align-items: center;
   background-image: linear-gradient(#0000007f, #0000007f), url("../images/homePageBackground.jpg");
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px 1%;
-  transition: 0.6s;
-  
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
 }
 
-header.sticky{
-  background-color: #24252A;
-}
-
-.logo {
+.check{
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #4c0099;
+  background: transparent;
+  color: #fff;
   cursor: pointer;
-  width: 50%; 
-  height: auto;
-  margin-right: auto;
-}
-
-.nav_links{
-  list-style: none;
-}
-
-.nav_links li {
-  display: inline-block;
-  padding: 0px 10px;
   position: relative;
+  overflow: hidden;
 }
 
-
-
-.nav_links li a {
-  transition: all 0.3s ease 0s;
-  color: #FFFFFF;
-}
-
-.nav_links li::after{
-  content: '';
-  height: 3px;
+.button_effect{
+  background: #4c0099;
+  height: 100%;
   width: 0;
-  background: #b266ff;
-  position: absolute;
   left: 0;
-  bottom: -10px;
-  transition: 0.5s
+  bottom: 0;
+  position: absolute;
+  border-radius: 25px;
+  z-index: -1;
+  transition: 0.5s;
 }
 
-.nav_links li:hover::after {
-  width: 100%;
+.check:hover .button_effect{
+  width: 100%
 }
 
-.buy{
-  padding: 9px 25px;
-  background-color: #b266ff;
+.check:hover{
   border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  color: #FFFFFF
 }
-
-.buy:hover{
-  background-color: #b266ffcc;
-}
-
-
 
 /*text on hover*/
 #img {
