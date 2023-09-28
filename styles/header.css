@@ -41,7 +41,8 @@ header.sticky {
 
 
 
-.nav_links li a {
+.nav_links li .nav-link,
+.nav_links li button {
     transition: all 0.3s ease 0s;
     color: #FFFFFF;
 }
@@ -75,13 +76,57 @@ header.sticky {
     background-color: #b266ffcc;
 }
 
-.nav_links li .dropdown {
-    display: block;
+
+.dropdownBtn {
+    background: none;
+    border: none;
+    text-decoration: none;
+    font-size: inherit;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.dropdownBtn:focus {
+    background: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
     position: absolute;
-    background-color: #fff;
-    width: 300%;
+    left: 0;
+    width: calc(100% + 10rem);
+    top: calc(100% + .8rem);
+    background: #000;
+    border: solid #4c0099;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 #0000001a;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    pointer-events: none;
 }
 
 
+.dropdown.active>.dropdownBtn+.dropdown-menu {
+    opacity: 1;
+    transform: translateY(0px);
+    pointer-events: auto;
+}
 
+.dropdown-links {
+    border-spacing: 0 15px;
+}
+
+.dropdown-link {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.dropdown-link:hover{
+    color: #b266ffcc;
+}
 

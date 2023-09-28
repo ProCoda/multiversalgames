@@ -12,75 +12,50 @@
 </head>
 
 <body>
-  <div class="banner">
-    <header>
-      <a href="home.html"><img src="images/sideLogo.png" class="logo"></a>
-      <nav>
-        <ul class="nav_links">
-          <li>
-              <a href="#">Games ↓</a>
-              <ul class="dropdown">
-                <li class="dropdown-item">Aluvius Adventure</li>
-                <li class="dropdown-item">Artifical Apocolpse</li>
-                <li class="dropdown-item">Locked Laptop</li>
-                <li class="dropdown-item">World of Quantum Mechanics</li>
-              </ul>
-          </li>
-          <li><a href="contact.asp">Contact</a></li>
-          <li><a href="about.asp">About</a></li>
-        </ul>
-      </nav>
-      <button class="buy" href="#">BUY NOW</button>
-    </header>
 
-    <div class="content">
-      <h1>Upgrade your gaming expericence</h1>
-      <p>Insert some persuasive text here</p>
 
- 
-  <!--Navigation Bar(begin)-->
   <body>
     <div class="banner">
+      <!--Navigation Bar(begin)-->
       <header>
         <a href="home.html"><img src="images/sideLogo.png" class="logo"></a>
         <nav>
           <ul class="nav_links">
-            <li><a href="">Games</a></li>
-            <li><a href="contact.asp">Contact</a></li>
-            <li><a href="about.asp">About</a></li>
+            <li>
+              <div class="dropdown">
+                <button class="dropdownBtn">Games</button>
+                <div class="dropdown-menu">
+                  <table class="dropdown-links">
+                    <tr><td><a href="" class="dropdown-link">Alluvius Adventure</a></td></tr>
+                    <tr><td><a href="" class="dropdown-link">Artifical Apocolypse</a></td></tr>
+                    <tr><td><a href="" class="dropdown-link">Locked Laptop</a></td></tr>
+                    <tr><td><a href="" class="dropdown-link"></span>Quantam Mechanics</a></td></tr>
+                  </table>
+                </div>
+              </div>
+            </li>
+            <li><a href="contact.asp" class="nav-link">Contact</a></li>
+            <li><a href="about.asp" class="nav-link">About</a></li>
           </ul>
         </nav>
         <button class="buy" href="#">BUY NOW</button>
       </header>
-  
+      <!--Navigation Bar(end)-->
+
       <div class="content">
         <h1>Upgrade your gaming expericence</h1>
         <p>Insert some persuasive text here</p>
-  
+
         <div>
           <button class="check"><span class="button_effect"></span>CHECK OUT OUR GAMES</button>
           <button class="check"><span class="button_effect"></span>GO TO CHECKOUT</button>
         </div>
       </div>
-  
-    </div>
-    <div class="header">
-      <div class="inner_header">
-        <div class="logo_container">
-          <a href="home.html"><img src="images/name.png" style="width: 15%; height: auto"></a>
-        </div>
-        
-        <ul class="navigation">
-          <a href=""><li>Games</li></a>
-          <a href="contact.asp"><li>Contact</li></a>
-          <a href="about.asp"><li>About</li></a>
-        </ul>
-      </div>
-    </div>
-  </div>
 
-  <!--Navigation Bar(begin)-->
-  <!--<div class="navbar">
+    </div>
+
+
+    <!--<div class="navbar">
           
         <a href="home.html"><img src="images/logo.png" style="width: 15%; height: auto"></a>
         <a href="" class="linkHover">Games</a>
@@ -88,182 +63,174 @@
         <a href="about.asp" class="linkHover">About</a>
       
     </div>!-->
-  <!--Navigation Bar(end)-->
+    <!--Navigation Bar(end)-->
 
-  <!--Sticky Header, header stays on the top of the screen when you scroll-->
+    <!--Sticky Header, header stays on the top of the screen when you scroll-->
 
-  <!--Carousel(begin)-->
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Verdana, sans-serif;
-    }
-
-    .mySlides {
-      display: none;
-    }
-
-    img {
-      vertical-align: middle;
-    }
-
-    /* Slideshow container */
-    .slideshow-container {
-      max-width: 1000px;
-      position: relative;
-      margin: auto;
-    }
-
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
-      width: 100%;
-      text-align: center;
-    }
-
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-    }
-
-    /* The dots/bullets/indicators */
-    .dot {
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #bbb;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
-    }
-
-    .active {
-      background-color: #717171;
-    }
-
-    /* Fading animation */
-    .fade {
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-
-    @keyframes fade {
-      from {
-        opacity: .4
+    <!--Carousel(begin)-->
+    <style>
+      * {
+        box-sizing: border-box;
       }
 
-      to {
-        opacity: 1
+      body {
+        font-family: Verdana, sans-serif;
       }
-    }
 
-    /* On smaller screens, decrease text size */
-    @media only screen and (max-width: 300px) {
+      .mySlides {
+        display: none;
+      }
+
+      img {
+        vertical-align: middle;
+      }
+
+      /* Slideshow container */
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+
+      /* Caption text */
       .text {
-        font-size: 11px
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
       }
-    }
-  </style>
-  </head>
 
-  <body>
-
-    <h2>Automatic Slideshow</h2>
-    <p>Change image every 2 seconds:</p>
-
-    <div class="slideshow-container">
-
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="" style="width:100%">
-        <div class="text">Caption Text</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="img_snow_wide.jpg" style="width:100%">
-        <div class="text">Caption Two</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="img_mountains_wide.jpg" style="width:100%">
-        <div class="text">Caption Three</div>
-      </div>
-
-    </div>
-    <br>
-
-    <div style="text-align:center">
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-
-    <script>
-      let slideIndex = 0;
-      showSlides();
-
-      function showSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      /* Number text (1/3 etc) */
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
       }
-    </script>
 
-    <!--Carousel(end)-->
+      /* The dots/bullets/indicators */
+      .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
 
-    <!--Artificial Apocolypse Short Info-->
-    <div style="width: 100%;">
-      <div style="width: 50%; height: 100px; float: left;">
+      .active {
+        background-color: #717171;
+      }
+
+      /* Fading animation */
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      @keyframes fade {
+        from {
+          opacity: .4
+        }
+
+        to {
+          opacity: 1
+        }
+      }
+
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .text {
+          font-size: 11px
+        }
+      }
+    </style>
+    </head>
+
+    <body>
+
+      <h2>Automatic Slideshow</h2>
+      <p>Change image every 2 seconds:</p>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="img_snow_wide.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="img_mountains_wide.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
 
       </div>
-      <!-- <div style="margin-left: 50%; height: 100px;"class="text"> 
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+      <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) { slideIndex = 1 }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex - 1].style.display = "block";
+          dots[slideIndex - 1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+      </script>
+
+      <!--Carousel(end)-->
+
+      <!--Artificial Apocolypse Short Info-->
+      <div style="width: 100%;">
+        <div style="width: 50%; height: 100px; float: left;">
+
+        </div>
+        <!-- <div style="margin-left: 50%; height: 100px;"class="text"> 
          <img id="img" src="images/Dhruvan Game Image.png"  alt="Artificial Apocolypse">
          <div class="title"> Artificial Apocolypse </div>
         
       </div>-->
-    </div>
+      </div>
 
-    <!--hover title-->
-    <div>
-      <img id="img" src="">
-      <div class="title">Text on Link Hover</div>
-    </div>
-
-
-
-    <!--The Multiversal Games bundle info(begin)-->
+      <!--hover title-->
+      <div>
+        <img id="img" src="">
+        <div class="title">Text on Link Hover</div>
+      </div>
 
 
 
-
-
-
-
-    <!--The Multiversal Games bundle info(end)-->
+      <!--The Multiversal Games bundle info(begin)-->
 
 
 
@@ -271,22 +238,30 @@
 
 
 
-
-    <!--Pricing information(begin)-->
-
-
-    <!--Pricing information(end)-->
-
-
-    <!--Contact/legal policies (begin)-->
+      <!--The Multiversal Games bundle info(end)-->
 
 
 
 
-    <!--Contact/legal policies (end)-->
 
 
 
-  </body>
+
+      <!--Pricing information(begin)-->
+
+
+      <!--Pricing information(end)-->
+
+
+      <!--Contact/legal policies (begin)-->
+
+
+
+
+      <!--Contact/legal policies (end)-->
+
+
+
+    </body>
 
 </html>
