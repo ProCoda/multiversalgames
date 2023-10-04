@@ -1,12 +1,28 @@
-body{
-header{
-margin: 50px;
-color:#FFFFFF;
-font-size: 50px;
-font-family:fantasy
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+    font-family: 'Public Pixel', sans-serif;
 }
 
+.content h1 {
+    font-size: 50px;
+    margin-top: 80px;
+    text-transform: uppercase;
 
+    .banner {
+        width: 100%;
+        padding: 0 0;
+        height: 100vh;
+        align-items: center;
+        background-image: linear-gradient(#0000007f, #0000007f), url("../images/Avill\ background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
 
 
