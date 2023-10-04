@@ -8,12 +8,12 @@
     font-family: 'Public Pixel', sans-serif;
 }
 
-.content h1 {
+.content h2 {
     font-size: 50px;
     margin-top: 80px;
     text-transform: uppercase;
-
-    .banner {
+}
+       .banner {
         width: 100%;
         padding: 0 0;
         height: 100vh;
@@ -32,4 +32,3 @@
 
 
     
-}
