@@ -1,5 +1,5 @@
  @import url('https://fonts.cdnfonts.com/css/tarrget');
- @import url('https://fonts.cdnfonts.com/css/londrina-black');
+ @import url('https://fonts.cdnfonts.com/css/truly-madly-dpad');
                 
 .content {
     width: 100%;
@@ -26,7 +26,7 @@ h1 {
 }
 p{
     font-size:30px;
-    font-family: 'Londrina Black', sans-serif;
+    font-family: 'Truly Madly Dpad', sans-serif;
     text-align: center;
     color:#FFFFFF
                   
