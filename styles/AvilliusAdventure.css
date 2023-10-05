@@ -5,14 +5,14 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
-    font-family: "Neon Energy X", sans-serif;
+    color: #fff; 
 }
 
 .content h1 {
     font-size: 50px;
     margin-top: 80px;
     text-transform: uppercase;
+    font-family: "Neon Energy X", sans-serif;
 }
        .banner {
         width: 100%;
@@ -24,7 +24,14 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-
+    .content h1:nth-child(1){
+        color: #7393B3;
+    }
+    .content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+    }
 
 
 
