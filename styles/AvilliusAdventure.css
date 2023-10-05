@@ -1,48 +1,45 @@
-body{
-header{
-margin: 50px;
-color:#FFFFFF;
-font-size: 50px;
-font-family:fantasy
-}
+@import url(https://www.fontmirror.com/neon-energy-x);
 
-.content{
+.content {
     width: 100%;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
     color: #fff;
-  }
-  
-  .content h1{
+}
+
+
+.content p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+}
+
+h1 {
     font-size: 50px;
     margin-top: 80px;
     text-transform: uppercase;
-  }
-  
-  .banner {
+    font-family: 'Neon Energy X', sans-serif;
+}
+
+.banner {
     width: 100%;
     padding: 0 0;
     height: 100vh;
     align-items: center;
-    background-image: linear-gradient(#0000007f, #0000007f), url("../images/homePageBackground.jpg");
+    background-image: linear-gradient(#0000007f, #0000007f), url("../images/Avillbackground.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-  }
-  
-  .content p{
+}
+
+.content h1:nth-child(1) {
+    color: #7393B3;
+}
+
+.content p {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
-  }
-
-
-
-
-
-
-
-    
 }
