@@ -1,5 +1,5 @@
  @import url('https://fonts.cdnfonts.com/css/tarrget');
-
+ @import url('https://fonts.cdnfonts.com/css/maldini');
                 
 .content {
     width: 100%;
@@ -19,14 +19,14 @@
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 85px;
     margin-top: 80px;
     text-transform: uppercase;
 }
 p{
-    font-size:30px;
+    font-size:10px;
     margin-top:100px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'MALDINI', sans-serif;                     
 }
 
        .banner {
