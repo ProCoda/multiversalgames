@@ -25,7 +25,7 @@ h1 {
     text-transform: uppercase;
 }
 p{
-    font-size:30px;
+    font-size:25px;
     font-family: 'Truly Madly Dpad', sans-serif;
     text-align: center;
     color:#FFFFFF
@@ -50,17 +50,6 @@ p{
     }
 
 
-
-.banner {
-    width: 100%;
-    padding: 0 0;
-    height: 100vh;
-    align-items: center;
-    background-image: linear-gradient(#0000007f, #0000007f), url("../images/Avillbackground.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 .content h1:nth-child(1) {
     color: #7393B3;
