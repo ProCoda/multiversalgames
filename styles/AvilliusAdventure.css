@@ -31,7 +31,7 @@ h2 {
     font-size:70px;
     margin-top:15px;
     text-align:center;
-    font-family: 'Buchanan Academy', sans-serif;
+    font-family: 'Buchanan', sans-serif;
     color:#FFFFFF 
 }
 p{
@@ -74,7 +74,7 @@ p{
 .gpreviewanimation {
 height: 75px;
 padding: 10px;
-width:fit-content;
+width:100%;
 align-items:center;
 background-size:cover;
 background-position:center;
