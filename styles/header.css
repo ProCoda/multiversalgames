@@ -16,7 +16,7 @@ img {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 1%;
     width: 100%;
@@ -42,10 +42,18 @@ header.sticky {
 
 .logo {
     cursor: pointer;
-    width: 50%;
+    width: 500px;
     height: auto;
-    margin-right: auto;
+    transform: translateX(-31rem)
 }
+
+@media screen and (min-width: 2000px){
+    .logo{
+        transform: translateX(-1600px)
+    }
+}
+
+
 
 .nav_links {
     list-style: none;
@@ -60,11 +68,14 @@ header.sticky {
 
 
 
+
 .nav_links li .nav-link,
 .nav_links li button {
     transition: all 0.3s ease 0s;
     color: #FFFFFF;
 }
+
+
 
 .nav_links li::after {
     content: '';
@@ -88,7 +99,8 @@ header.sticky {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    color: #FFFFFF
+    color: #FFFFFF;
+    margin-left: 20px
 }
 
 .buy:hover {
