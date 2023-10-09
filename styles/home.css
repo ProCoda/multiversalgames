@@ -1,5 +1,6 @@
 *{
   text-decoration: none;
+  font-family: Verdana, sans-serif;
 }
 
 .content{
@@ -69,6 +70,50 @@
   border: none;
 }
 
+/*CSS for Carousel*/
+.container{
+  width: 100vh;
+  margin: auto;
+}
+
+.carousel{
+  border: 2px solid #fff;
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider{
+  height: 100%;
+  display: flex;
+  width: 400%;
+  transition: transform 1s;
+}
+
+.slider section{
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff
+}
+
+.controls .arrow{
+  position: absolute;
+  top: 130%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 50px;
+  transform: translateY(-50%);
+}
+
+.arrow.left{
+  left: 23%;
+}
+
+.arrow.right{
+  right: 23%;
+}
 
 
 
