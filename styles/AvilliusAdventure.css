@@ -87,3 +87,10 @@ text-align:center;
 color:#FFFFFF;
 font-family: 'Truly Madly Dpad', sans-serif;
 }
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
