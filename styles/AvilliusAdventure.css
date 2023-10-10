@@ -1,7 +1,7 @@
  @import url('https://fonts.cdnfonts.com/css/tarrget');
  @import url('https://fonts.cdnfonts.com/css/truly-madly-dpad');
- @import url('../images/buchanan.ttf');
-
+ @import url('images/buchanan.ttf'); 
+ 
 
 .content {
     width: 100%;
@@ -79,18 +79,20 @@ p{
     padding:15px;
     justify-content: center;    
     align-items: center; 
+    text-align:center;
 }
 
 .gamepic{
 padding: 20px;
 text-align:center;
-color:#FFFFFF;
-font-family: 'Truly Madly Dpad', sans-serif;
+float: left;
+margin-right: 10px; 
+
 }
 
 .gamepic img{
     max-width: 80%;
-    height:50px;
+    height:70px;
 }
 
 
@@ -99,4 +101,12 @@ font-family: 'Truly Madly Dpad', sans-serif;
     justify-content: center;
     align-items: center;
     height: 100vh; 
+  }
+
+  h3{
+    font-size:47px;
+    margin-top:10px;
+    text-align:center;
+    font-family: 'Buchanan', sans-serif;
+    color:#FFFFFF 
   }
