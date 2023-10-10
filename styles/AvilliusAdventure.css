@@ -81,12 +81,18 @@ p{
     align-items: center; 
 }
 
-.gameimg{
+.gamepic{
 padding: 20px;
 text-align:center;
 color:#FFFFFF;
 font-family: 'Truly Madly Dpad', sans-serif;
 }
+
+.gamepic img{
+    max-width: 75%;
+    height: auto;
+}
+
 
 .center {
     display: flex;
