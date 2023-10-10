@@ -19,8 +19,8 @@
     display: block;
   }
   
-  .title {
-    background-color: rgb(0, 0, 0, 0.5);
+  #ptitle {
+
     position: absolute;
     bottom: 0;
     color: #fff;
