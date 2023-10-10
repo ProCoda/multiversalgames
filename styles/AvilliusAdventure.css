@@ -84,16 +84,13 @@ p{
 
 .gamepic{
 padding: 20px;
-text-align:center;
 float: left;
 margin-right: 10px; 
-
+max-width: 80%;
+height:75px;
 }
 
-.gamepic img{
-    max-width: 80%;
-    height:70px;
-}
+
 
 
 .center {
