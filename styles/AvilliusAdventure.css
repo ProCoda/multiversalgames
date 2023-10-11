@@ -126,7 +126,9 @@ width:auto;
     height: auto;
 }
 
-
+.image-container .image {
+    position: relative;
+}
 
 
 
