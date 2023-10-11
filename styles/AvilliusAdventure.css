@@ -97,37 +97,30 @@ p{
   }
 
 
-.fg1{
-text-align:left;
-height:300px;
-width:auto;
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
-
-
-.text {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
-    color: #FFFFFF;
-    padding: 10px;
-}
-
 
 .image {
     position: relative;
     text-align: center;
-    width: 30%; 
+    width: 30%;
 }
-
 .image img {
     max-width: 100%;
     height: auto;
 }
 
-.image-container .image {
-    position: relative;
+.text {
+    position: absolute;
+    top: -40px; 
+    left: 0;
+    right: 0;
+    color: #FFFFFF;
+    padding: 10px;
 }
 
 
