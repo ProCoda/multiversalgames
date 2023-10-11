@@ -124,5 +124,10 @@ p{
     font-family: 'Truly Madly Dpad', sans-serif;
 }
 
+.imagetext-position {
+    text-align: center;
+    width: 30%; 
+    position: relative;
+}
 
 
