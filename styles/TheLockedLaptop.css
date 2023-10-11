@@ -16,11 +16,9 @@
    /*text on hover*/
 #img {
     width: 100%;
-    display: block;
   }
   
   #ptitle {
-
     position: absolute;
     bottom: 0;
     color: #fff;
