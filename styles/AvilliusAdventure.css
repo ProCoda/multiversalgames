@@ -116,11 +116,12 @@ p{
 
 .text {
     position: absolute;
-    top: -60px; 
+    top: -50px; 
     left: 0;
     right: 0;
     color: #FFFFFF;
     padding: 10px;
+    font-family: 'Truly Madly Dpad', sans-serif;
 }
 
 
