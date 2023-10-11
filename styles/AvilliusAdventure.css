@@ -112,12 +112,11 @@ p{
 .image img {
     max-width: 100%;
     height: auto;
-    top:20px;
 }
 
 .text {
     position: absolute;
-    top: -40px; 
+    top: -60px; 
     left: 0;
     right: 0;
     color: #FFFFFF;
