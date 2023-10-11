@@ -110,8 +110,8 @@ p{
     width: 30%;
 }
 .image img {
-    max-width: 100%;
-    height: auto;
+    max-width: 250px;
+    height: 250px;
 }
 
 .text {
