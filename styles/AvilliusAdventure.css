@@ -4,6 +4,7 @@
 
  @font-face {
     font-family: "Buchanan";
+    src: url('images/buchanan.ttf');
     src: url('images/buchanan.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
