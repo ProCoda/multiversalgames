@@ -138,6 +138,13 @@ text-align: center;
   background-color:#140749;
 }
 
+.pricingrectangle{
+  height: 350px;
+  width: 250px;
+  background-color:#090322
+  background-color:#140749;
+}
+
 .pricingrectanglescontainer{
 width:100%;
 min-height:100vh;
@@ -165,5 +172,5 @@ text-align:center;
   border-radius:10px;
   color:#FFFFFF;
   text-align:center;
-  
+
 }
