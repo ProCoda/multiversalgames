@@ -142,12 +142,10 @@ p{
 .DAVimage {
     flex: 1;
     padding: 20px;
-    width:20%;
-    height:100px;
 }
 
-.image img {
-    max-width: 20%; 
+.DAVimage img {
+    max-width: 70%; 
     max-height: 200px; 
 }
 
