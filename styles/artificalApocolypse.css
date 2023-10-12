@@ -1,8 +1,5 @@
-@import url('https://fonts.cdnfonts.com/css/public-pixel');
+@import url('../images/PublicPixel.ttf');
 
-body {
-    font-family: Verdana, sans-serif;
-}
 
 .container {
     max-width: 1000px;
@@ -15,7 +12,7 @@ body {
     padding: 20px;
     text-align: center;
     color: #fff;
-    font-family: 'Public Pixel', sans-serif;
+    font-family: 'PublicPixel', sans-serif;
 }
 
 .grid-item img {
