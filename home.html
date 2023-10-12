@@ -137,7 +137,92 @@
   <!--Pricing information(end)-->
 
 
+  <!--Pricing information(begin)-->
+  <div class="pricing-container" id="pricing-container">
+    <div class="pricingrectanglescontainer">
+    <h1>Pricing</h1>
+    <b>
+      <h4 style>Ready to purchase these games? Head out to checkout when you are ready.</h4>
+      <h4>1 Game: $9.99
+        2 Games: $17.99
+        3 Games: $26.99
+        All 4 games: $34.99
+      </h4>
+        <div class="price-row">
+          <div class="price-col">
+            <p>Basic</p>
+            <li>1 game of choice</li>
+           </ul>
+          </div>
 
+          <div class="price-col">
+            <p>Starter</p>
+            <li>1 game of choice</li>
+            <li>1 game of choice</li>
+           </ul>
+          </div>
+
+          <div class="price-col">
+            <p>Advanced</p>
+            <li>1 game of choice</li>
+            <li>1 game of choice</li>
+            <li>1 game of choice</li>
+           </ul>
+          </div>
+
+
+          <div class="price-col">
+            <p>Multiversal Games bundle</p>
+            <li>all 4 games for a 12% discount</li>
+           </ul>
+          </div>
+        </div>
+    </b>
+  </div>
+    </div> 
+
+
+  <!--Pricing information(end)-->
+
+  32 changes: 31 additions & 1 deletion32  
+styles/home.css
+@@ -135,5 +135,35 @@ text-align: center;
+.pricingrectangle{
+  height: 350px;
+  width: 250px;
+  background-color:#090322
+  background-color:#140749;
+}
+
+.pricingrectanglescontainer{
+width:100%;
+min-height:100vh;
+}
+
+.pricingrectanglescontainer h2{
+color:#FFFFFF;
+font-size:32px;
+padding:50px 0;
+text-align:center;
+}
+
+.price-row{
+  width:90%;
+  max-width:1100px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap:25px;
+}
+
+.price-col{
+  background:#140749;
+  padding:10% 15%;
+  border-radius:10px;
+  color:#FFFFFF;
+  text-align:center;
+
+}
 
 
 
