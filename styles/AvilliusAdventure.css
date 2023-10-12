@@ -128,3 +128,7 @@ p{
 
 
 
+.purple-line {
+    border-top: 2px solid purple; 
+    width: 100%; 
+}
