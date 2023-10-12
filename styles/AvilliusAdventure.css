@@ -6,7 +6,7 @@
 
 .content {
     width: 100%;
-    position: absolute;
+    padding: 20px; 
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
@@ -154,22 +154,3 @@ p{
     padding: 20px;
 }
 
-.OPWE {
-    text-align: center;
-    color: #FFFFFF;
-    padding: 20px; 
-}
-
-.OPWE h2 {
-    font-size: 55px;
-    text-align: center;
-    font-family: 'Buchanan', sans-serif;
-    color: #FFFFFF;
-}
-
-.OPWE p {
-    font-size: 25px;
-    font-family: 'Truly Madly Dpad', sans-serif;
-    text-align: center;
-    color: #FFFFFF;
-}
