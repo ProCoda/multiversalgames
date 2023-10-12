@@ -132,3 +132,19 @@ p{
     border-top: 2px solid purple; 
     width: 100%; 
 }
+
+
+.DAV-container {
+    display: flex;
+    align-items: center;
+}
+
+.DAVimage {
+    flex: 1;
+    padding: 20px;
+}
+
+.DAVtext {
+    flex: 1;
+    padding: 20px;
+}
