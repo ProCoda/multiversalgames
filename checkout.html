@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/checkout.css">
     <link rel="stylesheet" href="styles/header.css">
     <script src="scripts/header.js"></script>
-    <script src="scripts/checkout.js"></script>
+    
 </head>
 
 <body>
@@ -58,7 +58,7 @@
                 <div class="gamesContainer" id="gamesContainer">
                     <label for="ArtificialApocalypse-select" class="games ArtificialApocalypse">
                         <input type="checkbox" name="gameContainer" id="ArtificialApocalypse-select"
-                            value="ArtificialApocalypse-select" class="game-selector" onchange="selectorClick(0)">
+                            value="ArtificialApocalypse-select" class="game-selector" onchange="selectorClick('Artificial Apocalypse')">
                         <div class="ArtificialApocalypse-description">
 
                             <h3 class="game-title">Artificial Apocalypse</h3>
@@ -73,7 +73,7 @@
 
                     <label for="AvilliusAdventure-select" class="games AvilliusAdventure">
                         <input type="checkbox" name="gameContainer" id="AvilliusAdventure-select"
-                            value="ArtificialApocalypse-select" class="game-selector" onchange="selectorClick(1)">
+                            value="ArtificialApocalypse-select" class="game-selector" onchange="selectorClick('Avillius Adventure')">
                         <div class="AvilliusAdventure-description">
 
                             <h3 class="game-title">Avillius Adventure</h3>
@@ -87,7 +87,7 @@
                     </label>
                     <label for="LockedLaptop-select" class="games LockedLaptop">
                         <input type="checkbox" name="gameContainer" id="LockedLaptop-select" value="LockedLaptop-select"
-                            class="game-selector" onchange="selectorClick(2)">
+                            class="game-selector" onchange="selectorClick('Locked Laptop')">
                         <div class="LockedLaptop-description">
 
                             <h3 class="game-title">Locked Laptop</h3>
@@ -101,7 +101,7 @@
                     </label>
                     <label for="QuantumComputer-select" class="games QuantumComputer">
                         <input type="checkbox" name="gameContainer" id="QuantumComputer-select"
-                            value="QuantumComputer-select" class="game-selector" onchange="selectorClick(3)">
+                            value="QuantumComputer-select" class="game-selector" onchange="selectorClick('Quantum Computer')">
                         <div class="QuantumComputer-description">
 
                             <h3 class="game-title">Quantum Computer</h3>
@@ -114,7 +114,7 @@
                         </section>
                     </label>
                 </div>
-                <div class="checkout-container">
+                <div class="checkout-container" id="checkout-container">
                     <h3 class="game-type">
                         <span class="game-type-description">Artificial Apocalypse</span>
                         <span class="game-type-amount">$9.99</span>
@@ -138,6 +138,7 @@
                     <button class="checkout-btn">Checkout</button>
             </main>
         </div>
+        <script src="scripts/checkout.js"></script>
 
 
 
