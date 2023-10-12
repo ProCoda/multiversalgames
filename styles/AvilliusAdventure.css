@@ -142,6 +142,8 @@ p{
 .DAVimage {
     flex: 1;
     padding: 20px;
+    width:50%;
+    height:400px;
 }
 
 .DAVtext {
