@@ -113,7 +113,8 @@
 }
 
 .billing-text{
-   color: #7a6d86;
+   color: #D3D3D3;
+   text-decoration: none;
    display: block;
    float: right;
    text-align: right;
