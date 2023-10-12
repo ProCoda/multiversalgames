@@ -1,8 +1,12 @@
-
-*{
+* {
     text-decoration: none;
     box-sizing: border-box;
-  }
+}
+
+html,
+body {
+    margin: 0;
+}
 
 
 body {
@@ -33,7 +37,7 @@ header.sticky {
     left: 0;
 }
 
-.outer-header{
+.outer-header {
     width: 100%;
     padding: 0 0;
     height: 50vh;
@@ -47,8 +51,8 @@ header.sticky {
     transform: translateX(-31rem)
 }
 
-@media screen and (min-width: 2000px){
-    .logo{
+@media screen and (min-width: 2000px) {
+    .logo {
         transform: translateX(-1600px)
     }
 }
@@ -157,7 +161,6 @@ header.sticky {
     transition: all 0.3s ease 0s;
 }
 
-.dropdown-link:hover{
+.dropdown-link:hover {
     color: #b266ffcc;
 }
-
