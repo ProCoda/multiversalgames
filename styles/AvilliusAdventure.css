@@ -146,6 +146,11 @@ p{
     height:100px;
 }
 
+.image img {
+    max-width: 20%; 
+    max-height: 200px; 
+}
+
 .DAVtext {
     flex: 1;
     padding: 20px;
