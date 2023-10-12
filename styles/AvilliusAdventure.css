@@ -6,7 +6,7 @@
 
 .content {
     width: 100%;
-    padding: 20px; 
+   position:absolute;
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
@@ -35,6 +35,14 @@ h2 {
     font-family: 'Buchanan', sans-serif;
     color:#FFFFFF 
 }
+
+.OPWE {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Buchanan', sans-serif;
+    margin-top: 600px; 
+}
+
 p{
     font-size:25px;
     font-family: 'Truly Madly Dpad', sans-serif;
