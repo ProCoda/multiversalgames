@@ -36,12 +36,7 @@ h2 {
     color:#FFFFFF 
 }
 
-.OPWE {
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Buchanan', sans-serif;
-    margin-top: 600px; 
-}
+
 
 p{
     font-size:25px;
@@ -68,11 +63,6 @@ p{
         line-height: 25px;
     }
 
-
-
-.content h1:nth-child(1) {
-    color: #7393B3;
-}
 
 .content p {
     margin: 20px auto;
