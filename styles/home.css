@@ -15,7 +15,7 @@ background-repeat: no-repeat;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 
 .content h1{
@@ -35,7 +35,7 @@ background-repeat: no-repeat;
   margin: 20px auto;
   font-weight: 100;
   line-height: 25px;
-  color: #fff;
+  color: #ffffff;
 }
 
 .check{
