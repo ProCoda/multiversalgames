@@ -4,6 +4,9 @@
 }
 body{
 background-image: linear-gradient(#0000007f, #0000007f), url("../images/homePageBackground.jpg");  
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 }
 
 .content{
@@ -25,11 +28,7 @@ background-image: linear-gradient(#0000007f, #0000007f), url("../images/homePage
   width: 100%;
   padding: 0 0;
   height: 100vh;
-  align-items: center;
-  background-image: linear-gradient(#0000007f, #0000007f), url("../images/homePageBackground.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  align-items: center;  
 }
 
 .content p{
