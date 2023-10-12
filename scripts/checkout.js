@@ -1,11 +1,8 @@
-const gamesSelectors = document.getElementById('gameSelector');
+function selectorClick(num){
+    console.log(num)
+}
 
-gamesSelectors.forEach((gameSelector) => {
-    gameSelector.addEventListener('click', function(){
-        console.log("breh");
 
-    });
-});
 
 // 1 game 9.99
 // 2 games 17.99
