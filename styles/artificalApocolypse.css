@@ -13,6 +13,8 @@
     text-align: center;
     color: #fff;
     font-family: 'PublicPixel', sans-serif;
+    color: #FFFFFF;
+    font-family: 'Public Pixel', sans-serif;
 }
 
 .grid-item img {
@@ -26,7 +28,7 @@
     top: 50%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: #FFFFFF;
     font-family: 'Public Pixel', sans-serif;
 }
 

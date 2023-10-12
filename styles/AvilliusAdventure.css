@@ -1,7 +1,14 @@
  @import url('https://fonts.cdnfonts.com/css/tarrget');
  @import url('https://fonts.cdnfonts.com/css/truly-madly-dpad');
- @import url('https://fonts.cdnfonts.com/css/buchanan');
+ @import url('https://fonts.cdnfonts.com/css/buchanan'
 
+ @font-face {
+    font-family: "Buchanan";
+    src: url('images/buchanan.ttf');
+    src: url('images/buchanan.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
 .content {
     width: 100%;
@@ -71,11 +78,59 @@ p{
     line-height: 25px;
 }
 
-.gpreviewanimation {
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    display: block; 
-    margin: auto; 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+}
+
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
   }
+
+  h3{
+    font-size:47px;
+    margin-top:10px;
+    text-align:center;
+    font-family: 'Buchanan', sans-serif;
+    color:#FFFFFF 
+  }
+
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top:60px;
+}
+
+.image {
+    position: relative;
+    text-align: center;
+    width: 30%;
+}
+.image img {
+    max-width: 300px;
+    height: 250px;
+}
+
+.text {
+    position: absolute;
+    top: -50px; 
+    left: 0;
+    right: 0;
+    color: #FFFFFF;
+    padding: 10px;
+    font-family: 'Truly Madly Dpad', sans-serif;
+}
+
+
+

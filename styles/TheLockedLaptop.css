@@ -13,27 +13,19 @@
    .text {
      font-size: 5px;
    }
-   /*text on hover*/
-#img {
-    width: 100%;
-    display: block;
-  }
   
-  .title {
-    background-color: rgb(0, 0, 0, 0.5);
+  #ptitle {
     position: absolute;
     bottom: 0;
-    color: #fff;
+    color: #FFFFFF;
     width: 100%;
     font-size: 25px;
     padding: 15px 0;
     text-align: center;
-    /*invisible because opacity is 0*/
-    opacity: 0;
-    transition: 0.6s;
   }
   
-  .text:hover .title {
-    /*becomes visible on hover*/
-    opacity: 1;
+  h1 {
+    font-size: 50px;
+    margin-top: 80px;
+    text-transform: uppercase;
   }
