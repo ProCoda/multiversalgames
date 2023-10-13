@@ -172,5 +172,11 @@ text-align:center;
   border-radius:10px;
   color:#FFFFFF;
   text-align:center;
-
+}
+.price{
+  background:#90019a;
+  padding:10% 15%;
+  border-radius:10px;
+  color:#FFFFFF;
+  text-align:center;
 }
