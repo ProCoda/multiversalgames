@@ -181,3 +181,8 @@ text-align:center;
   color:#FFFFFF;
   text-align:center;
 }
+
+.price-container {
+  text-align: center; 
+  margin-top: 10px; 
+}
