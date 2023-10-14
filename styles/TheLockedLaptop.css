@@ -16,10 +16,9 @@ body{
 }
 
 .grid-item {
-    padding: 35px;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 60px;
+    margin-top: 10px; 
 }
 
 .grid-item img {
