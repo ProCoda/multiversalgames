@@ -36,4 +36,5 @@ body{
 .story {
   font-size: 25px;
   text-transform: uppercase;
+  margin-block-start:  50px;
 }
