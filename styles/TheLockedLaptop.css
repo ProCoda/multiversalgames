@@ -1,5 +1,6 @@
-@import url('../images/PublicPixel.ttf');
-
+body{
+  background-color: #808080;
+}
 
 .container {
     max-width: 1000px;
@@ -11,7 +12,6 @@
 .grid-item {
     padding: 20px;
     text-align: center;
-    color: #fff;
     font-family: 'PublicPixel', sans-serif;
     color: #FFFFFF;
     font-family: 'Public Pixel', sans-serif;
