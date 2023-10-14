@@ -164,6 +164,7 @@ text-align:center;
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
   grid-gap:25px;
+  flex-wrap: wrap;
 }
 
 .price-col{
@@ -172,5 +173,18 @@ text-align:center;
   border-radius:10px;
   color:#FFFFFF;
   text-align:center;
-
 }
+
+.price{
+  background:#90019a;
+  padding:10% 15%;
+  border-radius:10px;
+  color:#FFFFFF;
+  text-align:center;
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
