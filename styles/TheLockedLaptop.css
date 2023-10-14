@@ -38,3 +38,9 @@ body{
   text-transform: uppercase;
   margin-block-start:  50px;
 }
+
+.story-info{
+  text-align: center;
+  color: #FFFFFF;
+  margin-block-start:  20px;
+}
