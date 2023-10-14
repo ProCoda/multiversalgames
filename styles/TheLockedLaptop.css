@@ -13,7 +13,7 @@
   }
 
   .img-text {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
