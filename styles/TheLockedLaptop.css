@@ -11,21 +11,11 @@
     float:left;
     color:#FFFFFF;
   }
-  .img-text {
-    border: 2px solid green;
-    width: 1541px;
-    margin: 0 auto;
-    clear: both;
-}
 
 .right-picture{
   max-width: 80%;
   height: auto;
     
-}
-
-.clear{
-    clear: both;
 }
 
   h1 {
