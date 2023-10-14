@@ -10,6 +10,28 @@
     float:left;
     color:#FFFFFF;
   }
+  .img-text {
+    border: 2px solid green;
+    width: 1541px;
+    margin: 0 auto;
+    clear: both;
+}
+
+.right-picture{
+    float: right;
+    border: 1px solid white;
+    height: 400px;
+    width: 500px;
+    
+}
+
+.right-picture > img{
+    display: block;
+}
+
+.clear{
+    clear: both;
+}
 
   h1 {
     font-size: 50px;
