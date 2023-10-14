@@ -24,6 +24,7 @@ body{
 .grid-item img {
     max-width: 80%;
     height: auto;
+    margin-block-start: 320px;
 }
 
 .name h1 {
