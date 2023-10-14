@@ -18,14 +18,14 @@ body{
 .grid-item {
     padding: 20px;
     text-align: center;
-    font-family: 'PublicPixel', sans-serif;
     color: #FFFFFF;
-    font-family: 'Public Pixel', sans-serif;
+    margin-top: 400px;
 }
 
 .grid-item img {
     max-width: 80%;
     height: auto;
+    margin-top: 400px;
 }
 
 .name h1 {
