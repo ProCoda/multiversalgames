@@ -33,8 +33,9 @@ body{
 
 .name h1 {
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 800px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .content h1:nth-child(1){
