@@ -5,25 +5,12 @@
     column-gap: 5px;
    }
    
-   img {
-     max-width: 100%;
-     max-height:100%;
-   }
-   
-   .text {
-     font-size: 5px;
-   }
-  
-  #ptitle {
-    position: absolute;
-    bottom: 0;
-    color: #FFFFFF;
-    width: 100%;
-    font-size: 25px;
-    padding: 15px 0;
-    text-align: center;
+  .left-text{
+    vertical-align:middle;
+    float:left;
+    color:#FFFFFF;
   }
-  
+
   h1 {
     font-size: 50px;
     margin-top: 80px;
