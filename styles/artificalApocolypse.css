@@ -107,11 +107,12 @@ body{
 
 .container {
     max-width: 1000px;
-    margin-left: 30vw;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Public Pixel', sans-serif;
     align-items: center;
     border: 1px solid red;
+    line-height: 30px;
 
 }

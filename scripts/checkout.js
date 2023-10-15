@@ -40,7 +40,10 @@ function selectorClick(name){
     discount.innerText = "AUD $"+discountPrice;
 }
 
+
+
 const modalConfirm = document.getElementById("confirm");
+
 
 function checkoutClick(){
     const games = document.getElementById('checkout-container').querySelectorAll(".game-type-description");
@@ -52,10 +55,12 @@ function checkoutClick(){
     str = str.substring(0, str.length-2);
     modalConfirm.innerHTML = '<i><img src="images/cart.svg" style="width: 100px; height: auto"></i><h2>Confirm Purchase</h2><h3>Do you confirm the purchase of '+str+' for '+discount.innerText+'?</h3><div class="buttons"><button id="close-btn" onclick="closeModal()">No</button><button id="yes-btn" onclick="loadingModal()">Yes</button></div>';
     modalConfirm.classList.toggle('activeModal');
+    document.getElementById("blurWrapper").classList.toggle('blurred');
 }
 
 function closeModal(){
     modalConfirm.classList.remove('activeModal');
+    document.getElementById("blurWrapper").classList.remove('blurred');
 }
 
 function loadingModal(){
