@@ -51,11 +51,11 @@ function checkoutClick(){
     });
     str = str.substring(0, str.length-2);
     modalConfirm.innerHTML = '<i><img src="images/cart.svg" style="width: 100px; height: auto"></i><h2>Confirm Purchase</h2><h3>Do you confirm the purchase of '+str+' for '+discount.innerText+'?</h3><div class="buttons"><button id="close-btn" onclick="closeModal()">No</button><button id="yes-btn" onclick="loadingModal()">Yes</button></div>';
-    modalConfirm.classList.toggle('active');
+    modalConfirm.classList.toggle('activeModal');
 }
 
 function closeModal(){
-    modalConfirm.classList.remove('active');
+    modalConfirm.classList.remove('activeModal');
 }
 
 function loadingModal(){
