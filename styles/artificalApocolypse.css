@@ -1,36 +1,14 @@
-@import url('../images/PublicPixel.ttf');
+@import url('https://fonts.cdnfonts.com/css/public-pixel');
 
 
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+
+body{
+    overflow-x: hidden; 
 }
 
-.grid-item {
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    font-family: 'PublicPixel', sans-serif;
-    color: #FFFFFF;
-    font-family: 'Public Pixel', sans-serif;
-}
 
-.grid-item img {
-    max-width: 80%;
-    height: auto;
-}
 
-.content {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Public Pixel', sans-serif;
-}
+
 
 .content h1 {
     font-size: 50px;
@@ -58,4 +36,82 @@
     margin: 20px 200px;
     font-weight: 100;
     line-height: 25px;
+}
+
+/*CSS for charecter animation*/
+.hero{
+    width:104px;
+    height:111px;
+    bottom: 150px;
+    background: url("../images/heroWalk.png");
+    margin: auto;
+    position: relative;
+    animation: heroWalk 1s steps(6) infinite, forwardHero 5s linear infinite;
+    float: left;
+}
+
+@keyframes heroWalk {
+    0% { background-position:0; }
+    100% { background-position:-624px; }
+}
+
+@keyframes forwardHero {
+    0% { transform: translate(-200px)}
+    100% { transform: translate(100vw) }
+}
+
+.robot{
+    width:104px;
+    height:111px;
+    bottom: 150px;
+    background: url("../images/robotWalk.png");
+    margin: auto;
+    position: relative;
+    animation: robotWalk 1s steps(6) infinite, forwardRobot 5s linear infinite;
+    animation-delay: 1s;
+    float: left;
+}
+
+@keyframes robotWalk {
+    0% { background-position:0; }
+    100% { background-position:-624px; }
+}
+
+@keyframes forwardRobot {
+    0% { transform: translate(-200px)}
+    100% { transform: translate(100vw) }
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'PublicPixel';
+    color: #FFFFFF;
+}
+
+.grid-item img {
+    max-width: 80%;
+    height: auto;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Public Pixel', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin-left: 30vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Public Pixel', sans-serif;
+    align-items: center;
+    border: 1px solid red;
+
 }
