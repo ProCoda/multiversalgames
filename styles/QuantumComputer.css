@@ -2,12 +2,27 @@
 
 
 
-.content {
-    width: 100%;
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'handlee', sans-serif;
-    font-size: larger;
-    padding: 20px;
-    margin-top: 80px;
-}
+    .content {
+        width: 100%;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: 'handlee';
+        font-size: larger;
+        padding: 20px;
+        margin-top: 30px;
+    }
+    
+    .banner {
+        width: 100%;
+        padding: 0 0;
+        height: 100vh;
+        align-items: center;
+        background-image: linear-gradient(#0000007f, #0000007f), url("../images/QuantumHeaderBg.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    
+
+    
