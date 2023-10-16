@@ -152,7 +152,24 @@
                 <button id="yes-btn" onclick="loadingModal()">Yes</button>
             </div>
         </div>
+        
+        <div class="modal-box" id="payment">
+            <i><img src="images/cart.svg" style="width: 100px; height: auto"></i>
+            <h2>Payment Details</h2>
 
+            <label for="cname" class="payLabel">Name on Card</label>
+            <input type="text" id="cname" placeholder="John More Doe">
+            <label for="creditcardnum" class="payLabel">Credit Card Number</label>
+            <input type="number" id="creditcardnum" placeholder="1111222233334444">
+            <label for="expdate" class="payLabel">Expiration Date</label>
+            <input type="date" id="expdate" placeholder="1111222233334444">
+
+            <div class="buttons">
+                <button id="yes-btn" onclick="confirm()">Purchase</button>
+            </div>
+        </div>
+
+        
         <!--<div class="modal-box" id="loading">
             <i>
                 <label class="checkLabel" for="">
