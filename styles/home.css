@@ -203,5 +203,25 @@ text-align:center;
   width:100px;
   height:500px;
   margin:10px;
-  background-color: black;
+  background: url(images/AvAd-poster.png);
+  background-size:cover;
+  background-position:center;
 }
+
+.posterbox:nth-child(2){
+background:url(images/TAWOQC-poster.png);
+background-size:cover;
+background-position:center;
+}
+
+.posterbox:nth-child(3){
+  background:url(images/ArtApoc-poster.png);
+  background-size:cover;
+  background-position:center;
+  }
+
+  .posterbox:nth-child(4){
+    background:url(images/TLL-poster.png);
+    background-size:cover;
+    background-position:center;
+    }
