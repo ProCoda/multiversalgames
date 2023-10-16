@@ -164,7 +164,6 @@ text-align:center;
   display:grid;
   grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
   grid-gap:25px;
-  flex-wrap: wrap;
 }
 
 .price-col{
@@ -183,8 +182,3 @@ text-align:center;
   text-align:center;
 }
 
-.price-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} 
