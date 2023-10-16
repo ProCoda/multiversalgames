@@ -52,12 +52,6 @@ header.sticky {
     transform: translateX(-50vw)
 }
 
-@media screen and (min-width: 2000px) {
-    .logo {
-        transform: translateX(-1600px)
-    }
-}
-
 
 
 .nav_links {
