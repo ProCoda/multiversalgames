@@ -184,8 +184,7 @@ text-align:center;
 
 .price:hover{
   opacity:0.5;
-  transition:all 0.5s, opacity 0.5s;
-  transition-duration: all 0.5s;
+  transition:all 0.5s, opacity 0.5s ease-in-out;
 
 }
 
