@@ -7,6 +7,7 @@ window.addEventListener("scroll", function() {
 
 //Code for dropdown showing
 document.addEventListener('click', e => {
+  console.log('oh like')
   const isDropdownButton = e.target.matches(".dropdownBtn");
   if(!isDropdownButton && e.target.closest('.dropdown') != null) return;
 
