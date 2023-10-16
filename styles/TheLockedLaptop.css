@@ -1,5 +1,16 @@
 body{
-  background-color: #808080;
+  background-color: #000000;
+}
+
+.banner {
+  width: 100%;
+  padding: 0 0;
+  height: 100vh;
+  align-items: center;
+  background-image: linear-gradient(#0000007f, #0000007f), url("../images/TheLockedLaptopBackground.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
@@ -53,4 +64,12 @@ body{
   text-transform: uppercase;
   font-size: 25px;
   margin-block-start: 50px;
+}
+
+.instructions-info{
+  text-align: center;
+  color: #FFFFFF;
+  margin-block-start:  20px;
+  margin-left: 350px;
+  margin-right: 350px;
 }
