@@ -51,7 +51,7 @@ function checkoutClick() {
     const discount = document.getElementById('discount-price');
     const errorMsg = document.getElementById('errorMsg');
     if (games.length == 0) {
-        errorMsg.style.display = 'block'
+        errorMsg.style.opacity = '1'
     } else {
         var str = "";
         games.forEach((game) => {
@@ -61,7 +61,7 @@ function checkoutClick() {
         modalConfirm.innerHTML = '<i><img src="images/cart.svg" style="width: 100px; height: auto"></i><h2>Confirm Purchase</h2><h3>Do you confirm the purchase of ' + str + ' for ' + discount.innerText + '?</h3><div class="buttons"><button id="close-btn" onclick="closeModal()">No</button><button id="yes-btn" onclick="loadingModal()">Yes</button></div>';
         modalPayment.classList.toggle('activeModal');
         document.getElementById("blurWrapper").classList.toggle('blurred');
-        errorMsg.style.display = 'none'
+        errorMsg.style.opacity = '0';
     }
 
 }
@@ -75,6 +75,7 @@ function closeModal() {
 function confirm() {
     modalPayment.classList.remove('activeModal');
     modalConfirm.classList.toggle('activeModal');
+    return false;
 }
 
 
