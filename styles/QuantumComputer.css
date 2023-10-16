@@ -28,8 +28,17 @@
         background-repeat: no-repeat;
     }
 
+    .question{
+        font-size: 25px;
+        text-transform: uppercase;  
+        margin-block-start: 300px;
+      }
+    
+    .description {
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-block-start:  50px;
+      }
 
-    
-    
 
     
