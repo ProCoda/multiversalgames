@@ -9,9 +9,14 @@
         font-family: 'handlee';
         font-size: larger;
         padding: 20px;
-        margin-top: 30px;
+        margin-top: 40px;
     }
-    
+    .content h1 {
+        font-size: 50px;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+
     .banner {
         width: 100%;
         padding: 0 0;
@@ -22,6 +27,8 @@
         background-position: center;
         background-repeat: no-repeat;
     }
+
+
     
     
 
