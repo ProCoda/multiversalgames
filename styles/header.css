@@ -8,6 +8,9 @@ body {
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: #24252A;
@@ -49,7 +52,8 @@ header.sticky {
     cursor: pointer;
     width: 400px;
     height: auto;
-    transform: translateX(-50vw)
+    float: left;
+    transform: translateX(-39vw)
 }
 
 
