@@ -114,5 +114,7 @@ body{
     align-items: center;
     border: 1px solid red;
     line-height: 30px;
+    position: absolute;
+    transform: translateX(25%);
 
 }
