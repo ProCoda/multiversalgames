@@ -243,7 +243,8 @@ background-position:center;
     }
 
   .posterbox:hover{
-    width:350px;
+    width:400px;
+    height:100vh;
     cursor:pointer;
   }
 
