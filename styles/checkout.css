@@ -285,6 +285,7 @@ button{
 
 #blurWrapper.blurred>*:not(.modal-box) {
     filter: blur(15px);
+    pointer-events: none;
 }
 
 input[type=text] {
