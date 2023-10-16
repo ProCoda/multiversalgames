@@ -203,25 +203,46 @@ text-align:center;
   width:100px;
   height:500px;
   margin:10px;
-  background: url(images/AvAd-poster.png);
+  background: url("../images/AvAd-poster.png");
   background-size:cover;
   background-position:center;
+  position:relative;
+  transition: width 0.5s;
 }
 
 .posterbox:nth-child(2){
-background:url(images/TAWOQC-poster.png);
+background:url("../images/TAWOQC-poster.png");
 background-size:cover;
 background-position:center;
 }
 
 .posterbox:nth-child(3){
-  background:url(images/ArtApoc-poster.png);
+  background:url("../images/ArtApoc-poster.png");
   background-size:cover;
   background-position:center;
   }
 
   .posterbox:nth-child(4){
-    background:url(images/TLL-poster.png);
+    background:url("../images/TLL-poster.png");
     background-size:cover;
     background-position:center;
     }
+
+    .posterbox h3{
+      color:#FFFFFF;
+      position:absolute;
+      bottom:0;
+      left:30px;
+      opacity:0;
+      transition:bottom 0.5s, opacity 0.5s;
+    }
+
+  .posterbox:hover{
+    width:300px;
+    cursor:pointer;
+  }
+
+  .posterbox:hover{
+    opacity:1;
+    bottom:25px;
+  }
