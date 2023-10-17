@@ -263,6 +263,7 @@ background-position:center;
 
   .footer{
     position:absolute;
+    max-height:150px;
     left:0;
     bottom:0;
     width:100%;
