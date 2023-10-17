@@ -32,3 +32,21 @@
     color:#FFFFFF;  
     font-size:8px;
   }
+
+  .footer {
+    padding-left: 0; 
+  }
+
+.footer h4 {
+    margin-bottom: 10px; 
+  }
+
+  .footer h6 {
+    margin-top: 0;
+    margin-bottom: 5px; 
+  }
+
+  .footer li {
+    list-style: none; 
+    margin: 5px 0; 
+  }
