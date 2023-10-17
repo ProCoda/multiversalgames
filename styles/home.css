@@ -261,7 +261,7 @@ background-position:center;
 
 
   .footer{
-    position:fixed;
+    position:absolute;
     left:0;
     bottom:0;
     width:100%;
@@ -273,4 +273,9 @@ background-position:center;
     text-align:left;
     color:#90019a;
     font-weight:500;
+  }
+
+  .footerstick {
+    min-height: 100%;
+    position: relative;
   }
