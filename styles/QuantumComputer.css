@@ -13,7 +13,7 @@ body{
         font-family: 'handlee';
         font-size: larger;
         padding: 20px;
-        margin-top: 40px;
+        margin-top: 150px;
     }
     .content h1 {
         font-size: 50px;
@@ -54,7 +54,7 @@ body{
     }
     
     .grid-item img {
-        max-width: 80%;
+        max-width: 30%;
         height: auto;
         padding-top: 1000px;
     }
