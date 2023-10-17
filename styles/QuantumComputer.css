@@ -22,7 +22,7 @@ body{
     }
 
     .content h2 {
-        font-size: 50px;
+        font-size: 35px;
         text-transform: uppercase;
         font-family: 'handlee'
     }
@@ -56,6 +56,7 @@ body{
     .grid-item img {
         max-width: 80%;
         height: auto;
+        padding-top: 1000px;
     }
 
 
