@@ -6,7 +6,7 @@ body{
 background-image: linear-gradient(#0000007f, #0000007f), url("../images/homePageBackground.jpg");  
 background-size: cover;
 background-position: center;
-background-repeat: no-repeat;
+background-repeat:repeat-y;
 }
 
 .content{
@@ -191,7 +191,7 @@ text-align:center;
 
 
 .postergallerycontainer{
-  margin-top:100px;
+  margin-top:20px;
   width:100%;
   height:100vh;
   display:flex;
