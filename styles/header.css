@@ -17,9 +17,6 @@ body {
     text-decoration: none;
 }
 
-img {
-    vertical-align: middle;
-}
 
 header {
     display: flex;
@@ -52,8 +49,8 @@ header.sticky {
     cursor: pointer;
     width: 400px;
     height: auto;
-    float: left;
-    transform: translateX(-39vw)
+    transform: translateX(calc(-93vw + 800px))
+
 }
 
 
