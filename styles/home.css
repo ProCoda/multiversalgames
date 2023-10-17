@@ -270,7 +270,7 @@ background-position:center;
     width:100%;
     background-color:#140749;
     text-align:center;
-    max-height: 150px;
+    max-height: 230px;
   }
 
   .footer h4{
@@ -284,14 +284,16 @@ background-position:center;
     position: relative;
   }
 
-  .footer p{
-    text-align:left;
-    color:#FFFFFF;  
-    font-size:8px;
-  }
+
 
   .footer h6{
     text-align:left;
     color:#FFFFFF;
     font-size:20px;
+  }
+
+  .footer li{
+    text-align:left;
+    color:#FFFFFF;  
+    font-size:8px;
   }
