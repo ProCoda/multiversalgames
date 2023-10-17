@@ -1,6 +1,10 @@
 @import url('https://fonts.cdnfonts.com/css/handlee');
 
 
+body{
+    overflow-x: hidden; 
+}
+
 
     .content {
         width: 100%;
@@ -23,6 +27,12 @@
         font-family: 'handlee'
     }
 
+    .content p {
+        margin: 20px 200px;
+        line-height: 25px;
+        font-family: 'handlee'
+    }
+
     .banner {
         width: 100%;
 
@@ -34,18 +44,19 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-
-    .question{
-        font-size: 25px;
-        text-transform: uppercase;  
-        margin-block-start: 300px;
-      }
     
-    .description {
-        font-size: 25px;
-        text-transform: uppercase;
-        margin-block-start:  50px;
-      }
+    .grid-item {
+        padding: 20px;
+        text-align: center;
+        color: #fff;
+        font-family: 'PublicPixel';
+        color: #FFFFFF;
+    }
+    
+    .grid-item img {
+        max-width: 80%;
+        height: auto;
+    }
 
 
     
