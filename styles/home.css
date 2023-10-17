@@ -191,6 +191,7 @@ text-align:center;
 
 
 .postergallerycontainer{
+  margin-top:100px;
   width:100%;
   height:100vh;
   display:flex;
@@ -243,7 +244,7 @@ background-position:center;
     }
 
   .posterbox:hover{
-    width:450px;
+    width:500px;
     height:100vh;
     cursor:pointer;
   }
@@ -284,9 +285,11 @@ background-position:center;
   .footer p{
     text-align:left;
     color:#FFFFFF;  
+    font-size:50px;
   }
 
   .footer h6{
     text-align:left;
     color:#FFFFFF;
+    font-size:90px;
   }
