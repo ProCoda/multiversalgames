@@ -40,7 +40,7 @@ footer{
     background-color:#000;
     padding:20px;
     text-align:center;
-
+    max-height:30px;
 }
 
 .copyrightsection p{
