@@ -38,7 +38,7 @@ footer{
     transition:0.5s;
 }
 
-.socialmedia-icons a:hover{
+.socialmedia-icons a:hover i{
     color:white;
     transition:0.5s;
 }
