@@ -7,7 +7,7 @@
 footer{
     margin-top:100px;
     background-color:#140749;
-    max-height:100px;
+    max-height:fit-content;
 }
 
 .footer-container{
