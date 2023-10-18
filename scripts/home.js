@@ -12,8 +12,8 @@ function rightArrowClick(){
 
     if(sectionIndex > 5){ sectionIndex = 0; } //Check if sectionIndex is more than 3 because only 4 elements in carosuel. If it is more than 3 than set to 0.
 
-    let amountTransform = sectionIndex * -25 //Multiply the section index by -25
-    slider.style.transform = 'translate('+amountTransform+'%)'; //Edit the slider style transform to the amountTransform
+    let amountTransform = sectionIndex * -60 //Multiply the section index by -60
+    slider.style.transform = 'translate('+amountTransform+'vw)'; //Edit the slider style transform to the amountTransform
     console.log(sectionIndex);
 }
 
@@ -22,8 +22,8 @@ function leftArrowClick(){
 
     if(sectionIndex < 0){ sectionIndex = 5; } //Check if sectionIndex is less than 0 because section index cannot be negative. If so than set to 3.
 
-    let amountTransform = sectionIndex * -25 //Multiply the section index by 25
-    slider.style.transform = 'translate('+amountTransform+'%)'; //Edit the slider style transform to the amountTransform
+    let amountTransform = sectionIndex * - 60 //Multiply the section index by -60
+    slider.style.transform = 'translate('+amountTransform+'vw)'; //Edit the slider style transform to the amountTransform
     console.log(sectionIndex);
 }
 //Carosuel code end

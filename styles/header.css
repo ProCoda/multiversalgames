@@ -22,7 +22,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 1%;
+    padding: 10px 1%;
     width: 100%;
     transition: 0.6s;
     position: fixed;
