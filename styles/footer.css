@@ -14,29 +14,35 @@ footer{
     padding:70px 30px 20px;
 }
 
-.socialmedia-icons a{
-    text-decoration:none;
-    padding: 10px;
-    background-color:#FFFFFF;
-    margin:10px;
-    border-radius:50%
-}
-
-.socialmedia-Icons{
+.socialmedia-icons{
     display:flex;
-    justify-content: center;
+    justify-content:center;
 }
 
-.socialmedia-Icons a i{
-    font-size:2em;
+.socialmedia-icons{
+    text-decoration:none;
+    padding:10px;
+    background-color:white;
+    margin:10px;
+    border-radius:50%;
+}
+
+.socialmedia-icons a i{
+    font-size: 2em;
     color:black;
     opacity:0.9;
 }
 
-.socialmedia-Icons a:hover{
-    background-color: #111;
+.socialmedia-icons a:hover{
+    background-color:#111;
     transition:0.5s;
 }
+
+.socialmedia-icons a:hover{
+    color:white;
+    transition:0.5s;
+}
+
 
 .footerNavigation ul{
     display:flex;
