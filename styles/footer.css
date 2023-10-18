@@ -14,7 +14,7 @@ body{
 
 
 .container{
-  max-width: 1170px;
+  max-width: 900px;
   margin:auto;
 
 }
@@ -67,6 +67,18 @@ font-weight:500px;
   color:#FFFFFF;
   transition: all 0.5s ease-in-out;
   background-color:#140749;
+}
+
+
+.footer-column h4::before{
+  content: '';
+  position:absolute;
+  left:0;
+  bottom:-10px;
+  background-color:#90019a;
+height:2px;
+box-sizing:border-box;
+width:50px;
 }
 
 .footer-column .socialmedia-links a:hover{
