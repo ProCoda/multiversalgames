@@ -16,6 +16,7 @@ body{
     height:100%;
 }
 
+/* Styling for the content container */
 .content {
     width: 100%;
     position: absolute;
@@ -26,33 +27,35 @@ body{
     font-family: 'Public Pixel', sans-serif;
 }
 
+/* Styling for the first h1 element in the content */
 .content h1 {
     font-size: 50px;
     margin-top: 80px;
     text-transform: uppercase;
 }
 
-.content h1:nth-child(1){
+/* Styling for the first h1 element with a specific color */
+.content h1:nth-child(1) {
     color: #7393B3;
 }
 
-
+/* Styling for the banner section */
 .banner {
     width: 100%;
     padding: 0 0;
     height: 100vh;
     align-items: center;
     background-image: linear-gradient(#0000007f, #0000007f), url("../images/grassBackground.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
+/* Styling for paragraphs in the content */
 .content p {
     margin: 20px 200px;
     font-weight: 100;
     line-height: 25px;
 }
+
+
 
 /*CSS for charecter animation*/
 .hero{
