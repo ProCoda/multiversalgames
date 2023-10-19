@@ -1,4 +1,3 @@
-@import url('https://fonts.cdnfonts.com/css/public-pixel');
 
 @font-face {
     font-family: 'Public Pixel';
@@ -6,6 +5,7 @@
     font-weight: 400;
     src: local('Public Pixel'), url('../fonts/PublicPixel.woff') format('woff');
 }
+/*Downloaded custom font so it works even if offline*/
 
 
 
@@ -49,19 +49,19 @@ body{
     width:104px;
     height:111px;
     bottom: 150px;
-    background: url("../images/heroWalk.png");
+    background: url("../images/heroWalk.png"); /*Image that has 6 frames of charecter walking*/
     margin: auto;
     position: relative;
     animation: heroWalk 1s steps(6) infinite, forwardHero 5s linear infinite;
     float: left;
 }
 
-@keyframes heroWalk {
+@keyframes heroWalk { /*Animation for charecter changing frames by moving background image*/
     0% { background-position:0; }
     100% { background-position:-624px; }
 }
 
-@keyframes forwardHero {
+@keyframes forwardHero { /*Animation for charecter moving forward, -200px is off the screen so it looks like the charecter is coming running on screen*/
     0% { transform: translate(-200px)}
     100% { transform: translate(100vw) }
 }
@@ -70,7 +70,7 @@ body{
     width:104px;
     height:111px;
     bottom: 150px;
-    background: url("../images/robotWalk.png");
+    background: url("../images/robotWalk.png"); /*Image that has 6 frames of charecter walking*/
     margin: auto;
     position: relative;
     animation: robotWalk 1s steps(6) infinite, forwardRobot 5s linear infinite;
@@ -78,12 +78,12 @@ body{
     float: left;
 }
 
-@keyframes robotWalk {
+@keyframes robotWalk { /*Animation for charecter changing frames by moving background image*/
     0% { background-position:0; }
     100% { background-position:-624px; }
 }
 
-@keyframes forwardRobot {
+@keyframes forwardRobot { /*Animation for charecter moving forward, -200px is off the screen so it looks like the charecter is coming running on screen*/
     0% { transform: translate(-200px)}
     100% { transform: translate(100vw) }
 }
@@ -125,6 +125,6 @@ body{
 }
 
 footer{
-    transform: translateY(200vh);
+    transform: translateY(200vh); /*Change the position of the footer because it was coming above the text*/
     position: relative;
 }
