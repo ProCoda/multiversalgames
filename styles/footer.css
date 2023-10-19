@@ -56,9 +56,13 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     justify-content: center;
     display: flex;
     gap: 2rem;
+    margin-bottom:15px;
 }
 
 .social-button{
     cursor: pointer;
 }
 
+.copyrightsection p{
+    margin-top:none;
+}
