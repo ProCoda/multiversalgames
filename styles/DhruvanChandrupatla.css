@@ -108,8 +108,8 @@ body{
     font-family: 'Public Pixel', sans-serif;
     align-items: center;
     line-height: 30px;
-    position: absolute;
-    transform: translate(calc(50vw - 500px)); /*Center this div on all screen sizes using viewport*/
+    position: relative;
+    transform: translate(calc(50vw - 825px)); /*Center this div on all screen sizes using calc*/
 
 }
 
@@ -128,7 +128,3 @@ body{
 }
 
 
-footer{
-    transform: translateY(200vh); /*Change the position of the footer because it was coming above the text*/
-    position: relative;
-}
