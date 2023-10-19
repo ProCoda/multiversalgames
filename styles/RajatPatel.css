@@ -2,6 +2,7 @@ body{
   background-color: #000000;
 }
 
+/*Background Start*/
 .banner {
   width: 10;
   padding: 0 0;
@@ -12,61 +13,92 @@ body{
   background-position: center;
   background-repeat: no-repeat;
 }
+/*Background End*/
 
+/*Img and Text div Start*/
 .container {
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+/*Img and Text div end*/
 
+/*Hook Question start*/
 .question{
   font-size: 25px;
   text-transform: uppercase;  
-  margin-block-start: 330px;
+  margin-block-start: 430px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*Hook Question end*/
 
+/*Img and Text side by side start*/
 .grid-item {
     text-align: center;
     color: #FFFFFF;
     margin-block-start: 100px; 
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*Img and Text side by side end*/
 
+/*Img side by side start*/
 .grid-item img {
+  max-width: 80%;
+  height: auto;
+  margin-block-start:  -15px;
+}
+/*Img side by side end*/
+
+/*Img and Text 2 side by side start*/
+.grid2-item {
+  text-align: center;
+  color: #FFFFFF;
+  margin-block-start: -155px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Img and Text 2 side by side end*/
+
+/*Img 2 side by side start*/
+.grid2-item img {
     max-width: 80%;
     height: auto;
-    margin-block-start:  -15px;
+    margin-block-start:  -55px;
 }
+/*Img 2 side by side end*/
 
+/*The Locked Laptop Heading start*/
 .name h1 {
     font-size: 50px;
     margin-top: 240px;
     text-transform: uppercase;
 }
+/*The Locked Laptop Heading end*/
 
+/*The Story start*/
 .Story {
-  font-size: 25px;
+  font-size: 35px;
   text-transform: uppercase;
-  margin-block-start:  -200px;
+  margin-block-start:  -520px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .story-info{
   text-align: center;
   color: #FFFFFF;
-  margin-block-start:  20px;
+  margin-block-start:  25px;
   margin-left: 350px;
   margin-right: 350px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
 }
+/*The Story end*/
 
+/*How to Play start*/
 .instructions{
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 35px;
   margin-block-start: 50px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -74,8 +106,26 @@ body{
 .instructions-info{
   text-align: center;
   color: #FFFFFF;
-  margin-block-start:  20px;
+  margin-block-start:  25px;
   margin-left: 350px;
   margin-right: 350px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
 }
+/*How to Play end*/
+
+/*Can You Spot the Cricle Start*/
+.circle{
+  text-align: center;
+  color: #FFFFFF;
+  margin-block-start: 50px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.circle-img{
+width: 600px;
+height: 400px;
+margin-block-start: 25px;
+}
+
+/*Can You Spot the Cricle end*/

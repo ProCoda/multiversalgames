@@ -90,7 +90,7 @@ function loadingModal() { //Function to trigger the loading animation
     icon.innerHTML = '<label class="checkLabel" for=""><div class="check-icon"></div></label>' //Add the loading animation to the modal icon
     setTimeout(() => {//Wait 5 seconds before executing this code
         icon.querySelector(".checkLabel").classList.toggle("checked"); //Stop the animation and display check mark
-        title.innerHTML = "Your all set!"; //Change the modal title
+        title.innerHTML = "You're all set!"; //Change the modal title
         text.style.opacity = 1; //Show the modal text
         text.innerHTML = "Thank you for purchasing with us!";  //Change the modal text
         buttons.style.opacity = 1; //Show the modal buttons
