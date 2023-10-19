@@ -24,12 +24,14 @@ body{
   font-size: 25px;
   text-transform: uppercase;  
   margin-block-start: 330px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .grid-item {
     text-align: center;
     color: #FFFFFF;
     margin-block-start: 100px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .grid-item img {
@@ -48,6 +50,7 @@ body{
   font-size: 25px;
   text-transform: uppercase;
   margin-block-start:  50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .story-info{
@@ -56,6 +59,7 @@ body{
   margin-block-start:  20px;
   margin-left: 350px;
   margin-right: 350px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .instructions{
@@ -64,6 +68,7 @@ body{
   text-transform: uppercase;
   font-size: 25px;
   margin-block-start: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .instructions-info{
@@ -72,4 +77,5 @@ body{
   margin-block-start:  20px;
   margin-left: 350px;
   margin-right: 350px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
