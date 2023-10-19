@@ -62,3 +62,6 @@ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans 
     cursor: pointer;
 }
 
+.copyrightsection p{
+    margin-top:none;
+}
