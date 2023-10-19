@@ -157,6 +157,7 @@ h4 {
 .pricingrectanglescontainer {
   width: 100%;
   min-height: 100vh;
+  margin-top:60px;
 }
 
 .pricingrectanglescontainer h2 {
@@ -181,6 +182,7 @@ h4 {
   border-radius: 10px;
   color: #FFFFFF;
   text-align: center;
+  
 }
 
 .price {
