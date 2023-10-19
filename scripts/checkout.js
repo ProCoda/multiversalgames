@@ -2,7 +2,7 @@ function selectorClick(name) {
     var id = "";
     if (name === "Artificial Apocalypse") { id = "ArtificialApocalypse" } //Convert name with space to name without space
     if (name === "Avillius Adventure") { id = "AvilliusAdventure" } //Convert name with space to name without space
-    if (name === "Locked Laptop") { id = "LockedLaptop" } //Convert name with space to name without space
+    if (name === "Locked Laptop") { id = "LockedLaptop" } //Convert name with space to name without space
     if (name === "Quantum Computer") { id = "QuantumComputer" } //Convert name with space to name without space
     const selector = document.getElementById(id + "-select"); //Get the specific selector that the user clicked
 
