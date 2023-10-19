@@ -8,25 +8,24 @@
 footer{
     margin-top:100px;
     background-color:#140749;
-    max-height:fit-content;
+    max-height:150px;
 }
 
+/*Sets the basic style for the footer such as colour,height and placement amongst other elements.*/
 
 .footer-container{
     width:100%;
     padding:70px 30px 20px;
 }
 
-.footer-container p{    
-    margin-bottom:15px;
-}
+/*States the footer container's sizing styles.*/
 
 .footerNavigation ul{
     display:flex;
     justify-content:center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
-
+/*Styles the ul (links) in the footer, such as alignment via the 'flex' code and font-family for appeal*/
 
 .footerNavigation ul li a{
     color: #ffffff;
@@ -41,7 +40,7 @@ footer{
 .footerNavigation ul li a:hover{
     opacity:1;
 }
-
+/*Styles the aesthetics of the text in the footer*/
 
 .copyrightsection{
 background-color: #000;
@@ -56,6 +55,9 @@ max-height:40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0; 
 }
+/*The small part of the footer for the copyright claim that legal businesses have, states the text size and style as well as the
+small black part in which the copyright text lies.*/
+
 
 .social-icons{
     justify-content: center;
@@ -66,4 +68,5 @@ max-height:40px;
 .social-button{
     cursor: pointer;
 }
+/*General code to align the social media icons in the footer.*/
 
