@@ -44,11 +44,28 @@ body{
 
 /*Img side by side start*/
 .grid-item img {
-    max-width: 80%;
-    height: auto;
-    margin-block-start:  -15px;
+  max-width: 80%;
+  height: auto;
+  margin-block-start:  -15px;
 }
 /*Img side by side end*/
+
+/*Img and Text 2 side by side start*/
+.grid2-item {
+  text-align: center;
+  color: #FFFFFF;
+  margin-block-start: 20px; 
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Img and Text 2 side by side end*/
+
+/*Img 2 side by side start*/
+.grid2-item img {
+    max-width: 80%;
+    height: auto;
+    margin-block-start:  -55px;
+}
+/*Img 2 side by side end*/
 
 /*The Locked Laptop Heading start*/
 .name h1 {
@@ -60,7 +77,7 @@ body{
 
 /*The Story start*/
 .Story {
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
   margin-block-start:  -200px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -81,7 +98,7 @@ body{
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
   margin-block-start: 50px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -95,3 +112,20 @@ body{
   font-size: 25px;
 }
 /*How to Play end*/
+
+/*Can You Spot the Cricle Start*/
+.circle{
+  text-align: center;
+  color: #FFFFFF;
+  margin-block-start: 50px;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+.circle-img{
+width: 800px;
+height: 600px;
+margin-block-start: 25px;
+}
+
+/*Can You Spot the Cricle end*/
