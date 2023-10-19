@@ -42,6 +42,8 @@ button{
 
 
 /*Checkout CSS*/
+
+/* Styling for container */
 .container {
     display: flex;
     flex-direction: row;
@@ -51,6 +53,7 @@ button{
     margin-top: 2rem;
 }
 
+/* Styling for game items */
 .games {
     display: grid;
     grid-template-columns: 1fr 8fr 3fr;
@@ -60,14 +63,16 @@ button{
     cursor: pointer;
     border-bottom: 2px solid #7a6d86;
     transition: all 0.3s ease-in-out;
-
-    &:hover {
-        cursor: pointer;
-        border-bottom: none;
-        background-color: #e9d1ff;
-    }
 }
 
+/* Hover effect for game items */
+.games:hover {
+    cursor: pointer;
+    border-bottom: none;
+    background-color: #e9d1ff;
+}
+
+/* Styling for titles */
 .title {
     font-size: 52px;
     text-align: center;
@@ -75,12 +80,15 @@ button{
     color: #ffffff;
 }
 
+
+/* Styling for prices */
 .price {
     display: block;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     text-align: right;
 }
 
+/* Styling for checkout container */
 .checkout-container {
     display: flex;
     flex-direction: column;
@@ -91,15 +99,15 @@ button{
     border-radius: 15px;
 }
 
-.game-type,
-.billing,
-.checkout-btn {
+/* Styling for game types, billing, and checkout button */
+.game-type, .billing, .checkout-btn {
     width: 100%;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
 }
 
+/*Margin 0 and padding 0 for game types*/
 .game-type {
     padding-top: 0;
     margin: 0;
@@ -107,15 +115,17 @@ button{
 
 
 
-
+/* Styling for last game type element */
 .game-type:last-of-type {
     border-bottom: 1px solid #7a6d86;
 }
 
+/* Styling for billing */
 .billing {
     margin: 0;
 }
 
+/* Styling for checkout button with hover effect */
 .checkout-btn {
     background-color: #b266ff;
     border: none;
@@ -126,14 +136,14 @@ button{
     padding: 1rem 35%;
     font-size: 1.2rem;
     transition: all 0.3s ease-in-out;
-
-
 }
 
+/* Hover effect for the checkout button */
 .checkout-btn:hover {
     background-color: #b266ffcc;
 }
 
+/* Styling for billing text */
 .billing-text {
     color: #D3D3D3;
     text-decoration: none;
@@ -146,6 +156,7 @@ button{
 
 /*CSS for modal box*/
 
+/* Styling for modal box */
 .modal-box {
     display: flex;
     flex-direction: column;
@@ -164,28 +175,30 @@ button{
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
     backdrop-filter: blur(5px) !important;
-    ;
 }
 
+/* Active modal box with full opacity and pointer events */
 .modal-box.activeModal {
     opacity: 1;
     pointer-events: auto;
 }
 
+/* Styling for icons in the modal */
 .modal-box i {
     font-size: 70px;
     color: #ffffff;
 }
 
+/* Styling for modal title */
 .modal-box h2 {
     margin-top: 20px;
     font-size: 25px;
     font-weight: 400;
     color: #ffffff;
     animation: opacity 0.3s ease-in-out;
-
 }
 
+/* Styling for modal subtitle */
 .modal-box h3 {
     font-size: 16px;
     font-weight: 400;
@@ -194,11 +207,13 @@ button{
     animation: opacity 0.3s ease-in-out;
 }
 
+/* Styling for buttons container in the modal */
 .modal-box .buttons {
     margin-top: 25px;
     animation: opacity 0.3s ease-in-out;
 }
 
+/* Styling for buttons within the modal */
 .modal-box button {
     font-size: 20px;
     padding: 6px 12px;
@@ -209,17 +224,21 @@ button{
     cursor: pointer;
 }
 
+/* Styling for close button */
 #close-btn {
     background-color: #f44336;
     color: #ffffff;
 }
 
+/* Styling for "yes" button */
 #yes-btn {
     background-color: #4CAF50;
     color: #ffffff;
 }
 
+
 /*Loading CSS*/
+/* Styling for check label */
 .checkLabel {
     height: 125px;
     width: 125px;
@@ -230,16 +249,19 @@ button{
     animation: rotate 1.2s linear infinite;
 }
 
+/* Rotation animation */
 @keyframes rotate {
     100% {
         transform: rotate(360deg);
     }
 }
 
+/* Styling for hidden check icon */
 .checkLabel .check-icon {
     display: none;
 }
 
+/* Animated checkmark */
 .checkLabel .check-icon::after {
     position: absolute;
     content: "";
@@ -253,6 +275,7 @@ button{
     animation: check-icon 2.8s ease;
 }
 
+/* Checkmark animation */
 @keyframes check-icon {
     0% {
         height: 0;
@@ -279,20 +302,24 @@ button{
     }
 }
 
+/* Styling for checked check label with visible check icon */
 .checkLabel.checked .check-icon {
     display: block;
 }
 
+/* Stop rotation animation and update border color */
 .checkLabel.checked {
     animation: none;
     border-color: #4c0099;
 }
 
-#blurWrapper.blurred>*:not(.modal-box) {
+/* Blur effect for elements within the blurred wrapper */
+#blurWrapper.blurred > *:not(.modal-box) {
     filter: blur(15px);
     pointer-events: none;
 }
 
+/* Styling for text input fields */
 input[type=text] {
     width: 100%;
     margin-bottom: 20px;
@@ -301,12 +328,14 @@ input[type=text] {
     border-radius: 3px;
 }
 
+/* Styling for payment labels */
 .payLabel {
     margin-bottom: 10px;
     color: #ffffff;
     display: block;
 }
 
-.modal-box:not(.activeModal){
+/* Disable pointer events for non-active modal boxes */
+.modal-box:not(.activeModal) {
     pointer-events: none;
 }

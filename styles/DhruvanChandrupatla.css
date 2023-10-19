@@ -16,6 +16,16 @@ body{
     height:100%;
 }
 
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Public Pixel', sans-serif;
+}
+
 .content h1 {
     font-size: 50px;
     margin-top: 80px;
@@ -88,29 +98,6 @@ body{
     100% { transform: translate(100vw) }
 }
 
-.grid-item {
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    font-family: 'PublicPixel';
-    color: #FFFFFF;
-}
-
-.grid-item img {
-    max-width: 80%;
-    height: auto;
-}
-
-.content {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    text-align: center;
-    color: #FFFFFF;
-    font-family: 'Public Pixel', sans-serif;
-}
-
 .container {
     max-width: 1000px;
     display: grid;
@@ -122,6 +109,21 @@ body{
     transform: translate(calc(50vw - 500px)); /*Center this div on all screen sizes using viewport*/
 
 }
+
+/* Grid item CSS */
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    color: #fff; /* White text color */
+    font-family: 'PublicPixel';
+}
+
+/* Images inside grid items */
+.grid-item img {
+    max-width: 80%;
+    height: auto; /* Maintain image aspect ratio */
+}
+
 
 footer{
     transform: translateY(200vh); /*Change the position of the footer because it was coming above the text*/
