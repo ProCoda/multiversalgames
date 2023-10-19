@@ -9,6 +9,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  overflow-x: hidden;
 }
 
 
@@ -220,26 +221,29 @@ h4 {
   width: 100px;
   height: 500px;
   margin: 10px;
-  background: url("../images/AvAd-poster.png");
-  background-size: cover;
-  background-position: center;
   position: relative;
   transition: width 0.5s;
 }
 
-.posterbox:nth-child(2) {
+.posterbox:nth-of-type(1){
+  background: url("../images/AvAd-poster.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.posterbox:nth-of-type(2) {
   background: url("../images/TAWOQC-poster.png");
   background-size: cover;
   background-position: center;
 }
 
-.posterbox:nth-child(3) {
+.posterbox:nth-of-type(3) {
   background: url("../images/ArtApoc-poster.png");
   background-size: cover;
   background-position: center;
 }
 
-.posterbox:nth-child(4) {
+.posterbox:nth-of-type(4) {
   background: url("../images/TLL-poster.png");
   background-size: cover;
   background-position: center;
@@ -270,3 +274,10 @@ p {
   text-align: center;
   color: #FFFFFF;
 }
+
+.about-us-container{
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
