@@ -1,4 +1,4 @@
- @font-face {
+  @font-face {
     font-family: 'Tarrget';
     font-style: normal;
     font-weight: 400;
@@ -18,7 +18,7 @@
     font-weight: 400;
     src: local('Buchanan'), url('../fonts/buchanan.woff') format('woff');
 }
-
+/*Custom fonts taken from the internet whose woff files have been uploaded into the fonts file so it is accessible even whilst offline.*/
 
 
 
@@ -52,7 +52,8 @@
     color: #FFFFFF;
   }
 
-
+/*This .content and .banner CSS code formats the banner of a game image and the informative text as well as the title neatly in line through
+different styles of aligning, such as align-items:center and position:absolute. */
 
 h2 {
     font-size: 55px;
@@ -69,6 +70,8 @@ p {
     text-align: center;
     color: #FFFFFF;
 }
+
+/*Genuine p and h2 styling codes that universally styles all p and h2 parts of the html code*/
     .banner {
         width: 100%;
         padding: 0 0;
@@ -95,6 +98,9 @@ p {
     line-height: 25px;
 }
 
+/*Further extension on the .banner and .content divs at the top of the website, this CSS adds the gradient to the banner image and adds the image itself.
+It further styles the .content's paragraphs but not messing with the websites paragraphs.*/
+
 
 .image-container {
     display: flex;
@@ -111,6 +117,7 @@ p {
     align-items: center;
     height: 100vh; 
   }
+/*Code that defines how center looks like on the website*/
 
   h3{
     font-size:47px;
@@ -119,7 +126,7 @@ p {
     font-family: 'Buchanan', sans-serif;
     color:#FFFFFF 
   }
-
+/*Genuine website header3 styling code*/
 
   .image-container {
     display: flex;
@@ -138,6 +145,8 @@ p {
     max-width: 300px;
     height: 250px;
 }
+/*The 3 aligned images rely on these styling code, it uses the complex flex and justify-content code that efficiently aligns
+elements in a straight and centrical manner for a more visual appeal.*/
 
 .text {
     position: absolute;
@@ -148,8 +157,7 @@ p {
     padding: 10px;
     font-family: 'Truly Madly Dpad', sans-serif;
 }
-
-
+/*Styles and aligns the text above the 3 aligned images.*/
 
 .purple-line {
     border-top: 2px solid purple; 
@@ -177,3 +185,5 @@ p {
     padding: 20px;
 }
 
+/*Code that aligns the several platforms with purple cyber style properly.
+Further defines classes for a container, image, and text, creating a flex layout with centered alignment and image size constraints./
