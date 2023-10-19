@@ -1,49 +1,54 @@
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-footer{
-    margin-top:100px;
-    background-color:#140749;
-    max-height:fit-content;
+body {
+    min-height: 100vh; /* Ensure the body covers at least the entire viewport height */
+    display: flex;
+    flex-direction: column;
 }
 
-.footer-container{
-    width:100%;
-    padding:70px 30px 20px;
+footer {
+    background-color: #140749;
+    max-height: fit-content;
+    margin-top: auto; /* This will push the footer to the bottom */
 }
 
-
-
-.footerNavigation ul{
-    display:flex;
-    justify-content:center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.footer-container {
+    width: 100%;
+    padding: 70px 30px 20px;
 }
 
-.footerNavigation ul li a{
-    color:white;
-    margin:20px;
+.footerNavigation ul {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footerNavigation ul li a {
+    color: white;
+    margin: 20px;
     text-decoration: none;
-    font-size:1.3em;
-    opacity:0.7;
-    transition:0.5s;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
 }
 
-.footerNavigation ul li a:hover{
-    opacity:1;
+.footerNavigation ul li a:hover {
+    opacity: 1;
 }
 
-.copyrightsection{
-    background-color:#000;
-    padding:20px;
-    text-align:center;
-    max-height:30px;
+.copyrightsection {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    max-height: 30px;
 }
 
-.copyrightsection p{
-color:white;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+.copyrightsection p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
