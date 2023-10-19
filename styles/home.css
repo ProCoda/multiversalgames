@@ -272,7 +272,7 @@ Text styles, sizing, and centering are specified for headings and prices. The ":
 }
 
 .posterbox:hover {
-  width: 450px;
+  width: 420px;
   height: 600px;
   cursor: pointer;
 }
