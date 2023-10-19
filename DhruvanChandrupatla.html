@@ -61,11 +61,13 @@
 
         </div>
     </div>
-
+    <!--Charecter animations (start)-->
     <div class="hero"></div>
     <div class="robot"></div>
     <div class="robot"></div>
+    <!--Charecter animations (end)-->
 
+    <!--Information Grid (start)-->
     <div class="container" style="font-family: 'Public Pixel', sans-serif;">
         <div class="grid-item">
             <img src="images/artificalApcolypse.png" alt="Image 1">
@@ -112,19 +114,20 @@
         </div>
 
     </div>
+    <!--Information Grid (end)-->
 
     <script>
-      window.onload = () => {
-        const robots = document.querySelectorAll('.robot');
-        robots.forEach((robot) => {
-          robot.style.opacity = 0;
+      window.onload = () => { //Execute this code when the window loads
+        const robots = document.querySelectorAll('.robot'); //Get all the elements with class robot
+        robots.forEach((robot) => { //Loop through each element
+          robot.style.opacity = 0; //Hide this element for animation delay
         });
 
-        setTimeout(() => {
-          robots.forEach((robot) => {
-          robot.style.opacity = 1;
+        setTimeout(() => { //Wait 1 second before executing this code
+          robots.forEach((robot) => {//Loop through each element
+          robot.style.opacity = 1;//Show this element after animation delay ended
         });
-        }, 1000);
+        }, 1000); //1000 miliseconds, which is 1 second
       }
     </script>
 
