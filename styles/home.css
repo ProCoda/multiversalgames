@@ -11,6 +11,7 @@ body {
   background-position: center;
   overflow-x: hidden;
 }
+/*Sets the code to style and position the infinite scrolling background effect*/
 
 
 .content {
@@ -41,7 +42,8 @@ body {
   line-height: 25px;
   color: #FFFFFF;
 }
-
+/*This .content and .banner CSS code formats the banner of a game image and the informative text as well as the title neatly in line through
+different styles of aligning, such as align-items:center and position:absolute. */
 .check {
   width: 200px;
   padding: 15px 0;
@@ -72,6 +74,7 @@ body {
 .check:hover .button_effect {
   width: 100%
 }
+/*Adds the smooth transition effect when you hover over the buttons.*/
 
 /*CSS for Carousel*/
 
@@ -141,6 +144,8 @@ h4 {
   color: #FFFFFF;
   text-align: center;
 }
+/*Genuine h1 and h4 styling code that universally appear on the website*/
+
 
 .pricingrectangle {
   height: 350px;
@@ -199,7 +204,8 @@ h4 {
   transition: all 0.5s, opacity 0.5s ease-in-out;
 
 }
-
+/*The ".pricingrectangle" class sets the dimensions and background color for pricing boxes, while the ".pricingrectanglescontainer" class defines the layout for the container. 
+Text styles, sizing, and centering are specified for headings and prices. The ":hover" selector adds an opacity effect on pricing boxes when they are hovered over, with a smooth transition.*/
 
 
 .postergallerycontainer {
@@ -267,7 +273,9 @@ h4 {
 .posterbox:hover h3 {
   opacity: 1;
   bottom: 25px;
-}
+} 
+/*The .postergallerycontainer and .gallery classes center and size the gallery. 
+Individual poster containers (.posterbox) are styled with dimensions and a transition. Each poster is individualized using :nth-of-type and assigned posters. Poster titles within .posterbox h3 are initially hidden and revealed on hover with opacity and position adjustments. */
 
 
 p {
@@ -275,9 +283,12 @@ p {
   color: #FFFFFF;
 }
 
+/*Genuine styling for paragraphs universally across the webiste*/
+
 .about-us-container{
   align-items: center;
   width: 1000px;
   margin: 0 auto;
 }
 
+/*Container for where the about us text will go*/
