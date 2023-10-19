@@ -62,6 +62,7 @@ small black part in which the copyright text lies.*/
     justify-content: center;
     display: flex;
     gap: 2rem;
+    padding-bottom:20px;
 }
 
 .social-button{
