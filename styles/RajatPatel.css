@@ -33,6 +33,12 @@ body{
 }
 /*Hook Question end*/
 
+/*Font Size Start*/
+.p{
+  font-size: 17.5;
+}
+/*Font Size Start*/
+
 /*Img and Text side by side start*/
 .grid-item {
     text-align: center;
@@ -122,7 +128,7 @@ body{
   font-size: 35px;
 }
 
-.circle-img{
+.circle img{
 width: 600px;
 height: 400px;
 margin-block-start: 25px;
