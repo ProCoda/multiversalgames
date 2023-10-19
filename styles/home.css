@@ -77,13 +77,15 @@ different styles of aligning, such as align-items:center and position:absolute. 
 /*Adds the smooth transition effect when you hover over the buttons.*/
 
 /*CSS for Carousel*/
-
+/*Area for Carosuel Start*/
 .container{
   width: 100vw;
   height: 100vh;
   position: relative;
 }
+/*Area for Carosuel Start*/
 
+/*Carosuel Screen Start*/
 .carousel {
   border: 2px solid #FFFFFF;
   position: absolute;
@@ -93,7 +95,9 @@ different styles of aligning, such as align-items:center and position:absolute. 
   left: 50%;
   transform: translate(-50%)
 }
+/*Carosuel Screen End*/
 
+/*Image Section Start*/
 .slider {
   height: 100%;
   display: flex;
@@ -113,16 +117,19 @@ different styles of aligning, such as align-items:center and position:absolute. 
   width: 60vw;
   height: 32vw;
 }
+/*Image Section End*/
 
+/*Arrows Start*/
 .controls .arrow {
   position: absolute;
   top: calc(100vh + 16vw);
   color: #FFFFFF;
   cursor: pointer;
   font-size: 50px;
-
 }
+/*Arrows End*/
 
+/*Arrows (Specifically Regarding to 1) Start*/
 .arrow.left {
   left: 10%;
 }
@@ -130,7 +137,7 @@ different styles of aligning, such as align-items:center and position:absolute. 
 .arrow.right {
   right: 10%;
 }
-
+/*Arrows (Specifically Regarding to 1) End*/
 
 h1 {
   font-family: Verdana, sans-serif;
