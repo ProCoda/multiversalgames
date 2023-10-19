@@ -60,7 +60,7 @@ body{
 
 /*The Story start*/
 .Story {
-  font-size: 25px;
+  font-size: 30px;
   text-transform: uppercase;
   margin-block-start:  -200px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -69,7 +69,7 @@ body{
 .story-info{
   text-align: center;
   color: #FFFFFF;
-  margin-block-start:  20px;
+  margin-block-start:  25px;
   margin-left: 350px;
   margin-right: 350px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -81,7 +81,7 @@ body{
   text-align: center;
   color: #FFFFFF;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 30px;
   margin-block-start: 50px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -89,7 +89,7 @@ body{
 .instructions-info{
   text-align: center;
   color: #FFFFFF;
-  margin-block-start:  20px;
+  margin-block-start:  25px;
   margin-left: 350px;
   margin-right: 350px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
