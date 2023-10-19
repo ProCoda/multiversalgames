@@ -1,23 +1,26 @@
+/* Resetting default styles for all elements */
 * {
     text-decoration: none;
     box-sizing: border-box;
 }
 
-html,
-body {
+/* Resetting margin for HTML and body */
+html, body {
     margin: 0;
 }
 
+/* Enabling smooth scrolling for HTML */
 html {
     scroll-behavior: smooth;
 }
 
+/* Setting background color for the body */
 body {
     background-color: #24252A;
     text-decoration: none;
 }
 
-
+/* Styling for the header */
 header {
     display: flex;
     justify-content: flex-end;
@@ -27,34 +30,32 @@ header {
     transition: 0.6s;
     position: fixed;
     z-index: 999;
-
 }
 
+/* Sticky header styling */
 header.sticky {
     background-color: #24252A;
-    float: center;
     top: 0;
     left: 0;
     height: 10%;
 }
 
+/* Outer header styling */
 .outer-header {
     width: 100%;
-    padding: 0 0;
     height: 50vh;
     align-items: center;
 }
 
+/* Styling for the logo */
 .logo {
     cursor: pointer;
     width: 400px;
     height: auto;
-    transform: translateX(calc(-93vw + 800px))
-
+    transform: translateX(calc(-97vw + 800px));
 }
 
-
-
+/* Styling for navigation links */
 .nav_links {
     list-style: none;
 }
@@ -66,17 +67,14 @@ header.sticky {
     font-family: Verdana, sans-serif;
 }
 
-
-
-
+/* Styling for navigation link text and buttons */
 .nav_links li .nav-link,
 .nav_links li button {
     transition: all 0.3s ease 0s;
     color: #FFFFFF;
 }
 
-
-
+/* Styling for the hover effect on navigation links */
 .nav_links li::after {
     content: '';
     height: 3px;
@@ -85,13 +83,15 @@ header.sticky {
     position: absolute;
     left: 0;
     bottom: -10px;
-    transition: 0.5s
+    transition: 0.5s;
 }
 
+/* Styling for the hover effect on navigation links */
 .nav_links li:hover::after {
     width: 100%;
 }
 
+/* Styling for the "buy" button */
 .buy {
     padding: 9px 25px;
     background-color: #b266ff;
@@ -100,14 +100,15 @@ header.sticky {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     color: #FFFFFF;
-    margin-left: 20px
+    margin-left: 20px;
 }
 
+/* Styling for the hover effect on the "buy" button */
 .buy:hover {
     background-color: #b266ffcc;
 }
 
-
+/* Styling for dropdown button */
 .dropdownBtn {
     background: none;
     border: none;
@@ -117,14 +118,17 @@ header.sticky {
     cursor: pointer;
 }
 
+/* Removing focus styling for dropdown button */
 .dropdownBtn:focus {
     background: none;
 }
 
+/* Styling for dropdown container */
 .dropdown {
     position: relative;
 }
 
+/* Styling for dropdown menu */
 .dropdown-menu {
     position: absolute;
     left: 0;
@@ -141,22 +145,25 @@ header.sticky {
     pointer-events: none;
 }
 
-
-.dropdown.active>.dropdownBtn+.dropdown-menu {
+/* Activating the dropdown menu */
+.dropdown.active > .dropdownBtn + .dropdown-menu {
     opacity: 1;
     transform: translateY(0px);
     pointer-events: auto;
 }
 
+/* Styling for dropdown links */
 .dropdown-links {
     border-spacing: 0 15px;
 }
 
+/* Styling for hover effect on dropdown links */
 .dropdown-link {
     color: #FFFFFF;
     transition: all 0.3s ease 0s;
 }
 
+/* Styling for the hover effect on dropdown links */
 .dropdown-link:hover {
     color: #b266ffcc;
 }
