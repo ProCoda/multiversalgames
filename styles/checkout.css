@@ -7,6 +7,10 @@
     color: #ffffff;
 }
 
+footer{
+    margin-top: 0 !important;
+}
+
 * {
     text-decoration: none;
     font-family: Verdana, sans-serif;
