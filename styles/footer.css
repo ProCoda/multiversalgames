@@ -4,24 +4,25 @@
     box-sizing:border-box;
 }
 
+
 footer{
     margin-top:100px;
     background-color:#140749;
     max-height:fit-content;
 }
 
+
 .footer-container{
     width:100%;
     padding:70px 30px 20px;
 }
-
-
 
 .footerNavigation ul{
     display:flex;
     justify-content:center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
 
 .footerNavigation ul li a{
     color:white;
@@ -32,9 +33,11 @@ footer{
     transition:0.5s;
 }
 
+
 .footerNavigation ul li a:hover{
     opacity:1;
 }
+
 
 .copyrightsection{
     background-color:#000;
@@ -42,6 +45,7 @@ footer{
     text-align:center;
     max-height:30px;
 }
+
 
 .copyrightsection p{
 color:white;
