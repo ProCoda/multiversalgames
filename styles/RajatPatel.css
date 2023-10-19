@@ -54,7 +54,7 @@ body{
 .grid2-item {
   text-align: center;
   color: #FFFFFF;
-  margin-block-start: 20px; 
+  margin-block-start: -155px; 
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*Img and Text 2 side by side end*/
@@ -79,7 +79,7 @@ body{
 .Story {
   font-size: 35px;
   text-transform: uppercase;
-  margin-block-start:  -200px;
+  margin-block-start:  -520px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -123,8 +123,8 @@ body{
 }
 
 .circle-img{
-width: 800px;
-height: 600px;
+width: 600px;
+height: 400px;
 margin-block-start: 25px;
 }
 
