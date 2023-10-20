@@ -7,7 +7,9 @@ body{
     height:100%;
 }
 
+/* body size and width fixed */
 
+/* the title block and promotional synopsis style begins*/
     .content {
         width: 100%;
         text-align: center;
@@ -16,6 +18,8 @@ body{
         font-size: larger;
         margin-top: 100px;
     }
+
+
     .content h1 {
         font-size: 60px;
         margin-top: 10px;
@@ -33,7 +37,9 @@ body{
         line-height: 1000px;
         font-family: 'handlee';
     }
-
+/* the title block and promotional synopsis style ends */
+    
+/* background of the start of the page set*/
     .banner {
         width: 100%;
         padding: 0 0;
@@ -45,6 +51,7 @@ body{
         background-repeat: no-repeat;
     }
 
+/* the placement of the grid where all the features of the game is held */
     .container {
         max-width: 1000px;
         display: grid;
@@ -58,6 +65,7 @@ body{
     
     }
     
+/* the style of the features and how it is placed */
     .grid_item {
         padding: 20px;
         text-align: center;
@@ -122,6 +130,7 @@ body{
        
     }
 
+/* the size and the style of the how to play part of the website */
     .instructions{
         text-align: center;
         color: #FFFFFF;
@@ -155,7 +164,7 @@ body{
         font-family:'handlee';
       }  
     
-
+/* the placement of the footer relative to the info */
     footer{
         transform: translateY(-15vh);
         position: relative;
