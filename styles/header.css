@@ -134,7 +134,7 @@ header.sticky {
     left: 0;
     width: calc(100% + 10rem);
     top: calc(100% + .8rem);
-    background: #000;
+    background: #000000;
     border: solid #4c0099;
     padding: .75rem;
     border-radius: .25rem;
