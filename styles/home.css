@@ -13,7 +13,11 @@ body {
 }
 /*Sets the code to style and position the infinite scrolling background effect*/
 
-
+h2{
+  color:#FFFFFF;
+  text-align:center;
+  font-size:40px;
+}
 .content {
   width: 100%;
   position: absolute;
