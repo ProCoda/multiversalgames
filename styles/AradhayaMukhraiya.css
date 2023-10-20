@@ -160,7 +160,7 @@ elements in a straight and centrical manner for a more visual appeal.*/
 /*Styles and aligns the text above the 3 aligned images.*/
 
 .purple-line {
-    border-top: 2px solid purple; 
+    border-top: 2px solid #800080; 
     width: 100%; 
 }
 
